@@ -1,5 +1,5 @@
 ## Passi per migrare dalla vecchia chain alla nuova chain
-- Fare il backup del file wallet.dat prima di fare qualsiasi altra cosa (farne 2 copie separate)
+- Fare il backup del file wallet.dat prima di fare qualsiasi altra cosa (fanne 2 copie separate)
 - Per Windows, il file wallet.dat puó essere trovato in C:\Users\User\AppData\Roaming\blocknet (o nelle nuove versioni di \BlocknetDX)
 - Per OSX, il file wallet.dat puó essere trovato in ~/Library/Application Support/blocknet (o nelle nuove versioni di /BlocknetDX)
 - Sblocca completamente il wallet (non solo per lo staking) dalla UI (nel menu principale, "Settings" > "Unlock Wallet")
@@ -19,9 +19,9 @@
 - Una volta che lo snapshot viene applicato alla nuova chain, il tuo saldo verrá mostrato nel nuovo wallet 
 - Puó essere previsto che exchanges (centralizzati) riabilitino il trading una volta che abbiano confermato che la nuova chain sia in funzione come previsto.
 
-## Trouble syncing the new chain
-- Close the wallet
-- Backup the wallet.dat file before doing anything (make 2 separate copies)
-- Backup the blocknetdx.conf file if running a service node (make 2 separate copies)
-- Open the wallet and let the chain sync
-- Replace the created wallet.dat anf blocknetdx.conf file with the backed-up copy
+## Problemi nel sincronizzare la nuova chain
+- chiudi il wallet
+- Fai un backuo del file wallet.dat prima di fare qualsiasi altra cosa (fanne 2 copie separate) 
+- Fai il backup del file blocknetdx.conf se hai un nodo di servizio (fanne 2 copie separate)
+- Apri il walle e lascia sincronizzare la chain 
+- sostituisci i file wallet.dat e blocknetdx.conf creati con la copia di backup
