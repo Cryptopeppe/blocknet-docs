@@ -1,15 +1,15 @@
-## Steps for migrating from old chain to new chain
-- Backup the wallet.dat file before doing anything (make 2 separate copies)
-- For Windows, the wallet.dat file can be found in C:\Users\User\AppData\Roaming\blocknet (or \BlocknetDX in newer updates)
-- For OSX, the wallet.dat file can be found in ~/Library/Application Support/blocknet (or /BlocknetDX in newer updates)
-- Fully unlock wallet(not just for staking) from the UI (in main menu, "Settings" > "Unlock Wallet")
-- Use the debug console(in main menu, "Tools" > "Debug Console") and type ```dumpwallet filename.txt``` (replace "filename.txt" with a name of your choice)
-- The file will be located in the directory you launched the wallet from
+## Passi per migrare dalla vecchia chain alla nuova chain
+- Fare il backup del file wallet.dat prima di fare qualsiasi altra cosa (farne 2 copie separate)
+- Per Windows, il file wallet.dat puó essere trovato in C:\Users\User\AppData\Roaming\blocknet (o nelle nuove versioni di \BlocknetDX)
+- Per OSX, il file wallet.dat puó essere trovato in ~/Library/Application Support/blocknet (o nelle nuove versioni di /BlocknetDX)
+- Sblocca completamente il wallet (non solo per lo staking) dalla UI (nel menu principale, "Settings" > "Unlock Wallet")
+- Usa la console per il debug (nel menu principale, "Tools" > "Debug Console") e scrivi ```dumpwallet filename.txt``` (rimpiazza "filename.txt" con un nome di tua scelta)
+- Il file sará collocato nella directory dalla quale hai lanciato il wallet 
 
-## Download new wallet
-- Launch wallet
-- Use the debug console and type ```importwallet filename.txt``` (replace filename.txt with the file name used in the dumpwallet command above)
-- Verify the old addresses were imported via debug console by typing ``` listreceivedbyaddress 0 true```
+## Scarica un nuovo wallet
+- Lancia il wallet
+- Usa la console per il debug e scrivi ```importwallet filename.txt``` (rimpiazza filename.txt con il nome del file usato nel comdando dumpwallet sopra)
+- Verifica i vecchi indirizzi che sono stati importati dalla consele debug scrivendo ``` listreceivedbyaddress 0 true```
 
 ## When to move your wallet.dat and start using the new wallet
 - Any time there is a chain fork you will need to move your wallet.dat file
