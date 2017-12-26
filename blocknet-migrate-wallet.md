@@ -11,13 +11,13 @@
 - Usa la console per il debug e scrivi ```importwallet filename.txt``` (rimpiazza filename.txt con il nome del file usato nel comdando dumpwallet sopra)
 - Verifica i vecchi indirizzi che sono stati importati dalla consele debug scrivendo ``` listreceivedbyaddress 0 true```
 
-## When to move your wallet.dat and start using the new wallet
-- Any time there is a chain fork you will need to move your wallet.dat file
-- If a specific wallet version is needed for a fork, may download the new wallet, sync up, and move your wallet.dat to it's directory prior to the fork
-- However, the new wallet's balance will remain zero until the migration(fork)
-- A snapshot will be taken at the time of the final block on the old chain
-- Once the snapshot is applied to the new chain, your balance will reflect in the new wallet
-- It can be expected that (centralized) exchanges will re-enable trading once they have confirmed that the new chain is functioning as expected.
+## Quando sposti il tuo wallet.dat e inizi ad usare il nuovo wallet
+- Ogni volta che vi é un fork della chain avrai bisogno di spostare il tuo file wallet.dat
+- Se una versione specifica del wallet é richiesta per un fork, scarica il nuovo wallet, sincronizzalo, e sposta il tuo wallet.bat nella directory prima del fork 
+- Comunque, il saldo del nuovo wallet rimarrá zero fino alla migrazione (fork) 
+- Lo snapshot verrá fatto al momento del blocco finale sulla vecchia chain 
+- Una volta che lo snapshot viene applicato alla nuova chain, il tuo saldo verrá mostrato nel nuovo wallet 
+- Puó essere previsto che exchanges (centralizzati) riabilitino il trading una volta che abbiano confermato che la nuova chain sia in funzione come previsto.
 
 ## Trouble syncing the new chain
 - Close the wallet
