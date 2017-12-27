@@ -19,7 +19,7 @@ GRAZIE A @86b (Slack) per aver trascorso ore e ore su questa configurazione!
   
 	  `cd C:\Users\<NAME>\decred` o dovunque sia installata
     
-## primaa CMD PROMPT 
+## Prima Finestra CMD PROMPT 
 
 * Scrivi:
 
@@ -28,36 +28,36 @@ GRAZIE A @86b (Slack) per aver trascorso ore e ore su questa configurazione!
 
 * Dovrebbe connettersi e scaricare la blockchain. Lascialo in esecuzione in background
 
-## 2ndo CMD PROMPT WINDOW
+## Seconda Finestra CMD PROMPT
 
-* Type: `dcrwallet --create`
+* Scrivi: `dcrwallet --create`
 
-* Create and enter a password (it wont display anything when you type a password) 
+* Crea e inserisci una password (non verrá mostrato nulla quando la password sará inserita) 
 
-* Type it again to confirm
+* Scrivila nuovamente per confermarla
 
-* Type `n` on addition security
+* Scrivi `n` per ulteriore sicurezza
 
-* Type: `n` on an existing wallet
+* Scrivi: `n` su un wallet esistente
 
-* Copy your Seed and Hex into a document and save it
+* Copia il Seed, mettilo in un documento e salvalo
 
-* Type: `OK`  (capital letters)
+* Scrivi: `OK`  (lettere maiuscole)
 
-* Your wallet should be created successfully!
+* Il tuo wallet dovrebbe essere stato creato correttamente!
 
-## 3RD CMD PROMPT WINDOW
+## Terza Finestra CMD PROMPT 
 
-* Type:
+* Scrivi:
 
 	* `dcrwallet --username=CHANGE --password=CHANGE --noclienttls --noservertls --walletpass public --dcrdusername=CHANGE --dcrdpassword=CHANGE --txfee=0.01`
 		* (enter the same user/pass as the above RPC for both user/pass)
 
-* Enter your password, it should rescan blocks and eventually connect
+* Inserisci la password, dovrebbe rianalizzare i blocchi ed eventualmente riconnettersi 
   
-* Leave it running in the background
+* Lascialo in esecuzione in background 
 
-## BACK TO 2ND CMD PROMPT WINDOW
+## Torna Indietro Alla Seconda Finestra CMD PROMPT 
 
 * Type: 
 
