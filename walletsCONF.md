@@ -1,15 +1,15 @@
-# Blocknet Enabled Specific coin.conf's
+# Blocknet Abilitato coin.conf Specifico
 
-* Under each coin edit the following to suit your requirements:
+* Sotto ogni moneta modifica quanto segue per soddisfare le tue esigenze:
 
-  * ```rpcuser=``` Add a unique username
-  * ```rpcpassword=``` Add a complex password
+  * ```rpcuser=``` Aggiungi un username unico
+  * ```rpcpassword=``` Aggiungi una password complessa
   
-  * Ensure the user/pass is different for each coin
+  * Assicurati che l'utente/pass sia differente per ogni moneta
   
-* Encrypt each wallet with a complex password. Wallets need to be unlocked for trading.
+* Crypta ogni wallet con una password complessa. I wallets devono essere sbloccati per il trading. 
 
-* This document contains all of the successfully traded coin's currently on the Blocknet DX. As future coin's go through the testing phase and have successful swaps, they will be announced accordingly. After the announcement those configuration parameters will be released on this document.
+* Questo documento contiene tutte le monete correntemente tradate con successo sulla Blocknet DX. Se una moneta va attraverso la fase di testing e ha scambi di successo, sará di conseguenza annunciato. Dopo l'annuncio la configurazione dei parametri verranno rilasciate in questo documento. 
 
 __bitcoin.conf__
 ```
@@ -84,7 +84,7 @@ __LBRY Credits LBC Command Line__
 ```
 lbrycrdd -server -listen -rpcuser= -rpcpassword= -rpcallowip=127.0.0.1
 ```
-OR
+O
 
 __lbrycrd.conf__
 
