@@ -1,11 +1,11 @@
-# How To Find .CONF Prefixes Instructions
+# Come Trovare Le Istruzioni Prefix .CONF 
 
-1. Address Prefix:
+1. Indirizzo Prefix:
 
-    1. Go to: http://lenschulwitz.com/base58
-    2. Enter wallet address into Base 58 Decoder
-    3. First 2 digits of HEX copy into: http://www.binaryhexconverter.com/hex-to-decimal-converter
-    4. Decimal value = address prefix
+    1. Vai a: http://lenschulwitz.com/base58
+    2. Inserisci l'indirizzo del wallet nel decodificatore in base 58
+    3. Prime 2 cifre della copia HEX in: http://www.binaryhexconverter.com/hex-to-decimal-converter
+    4. Valore Decimale = Indirizzo prefix
 
 2. Script Prefix:
 
