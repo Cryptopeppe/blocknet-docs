@@ -27,9 +27,9 @@
 
 4.  RPC Port:
 
-    1. Search wallet’s GitHub, official webpage, bitcointalk, general google searches
-    2. Try some of the website sources listed below on the next page
-    3. Under the wallets Debug or Tool menu, click the Peers tab. The IP address port is sometimes 1 below what is listed. This only works sometimes.
-    4. From command line (windows: `netstat -an` / linux: `netstat -anp`) That should show open ports (on windows it wont’ show the process, but there is a GUI that does)
+    1. Cerca il wallet su GitHub, pagina web ufficiale, bitcointalk, ricerche generali su google
+    2. Prova alcune risorse del sito web elencate di seguito nella pagina successiva 
+    3. Sotto il menu debug o Tool del wallet, clicca la scheda tab. La porta dell'indirizzo IP é a volte 1 sotto qunato listato. Funziona solo alcune volte.
+    4. Dalla linea di comando (windows: `netstat -an` / linux: `netstat -anp`) che potrebbe mostrare porte aperte (su Windows non viene mostrato il processo, ma esiste una GUI che lo mostra)
 
-Thanks @86b (Slack) for figuring this method out
+Grazie @86b (Slack) per aver aver scoperto questo metodo.
