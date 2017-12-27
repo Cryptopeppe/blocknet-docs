@@ -9,21 +9,21 @@
 
 2. Script Prefix:
 
-    1. Go to wallet console
-    2. Type `validateaddress <wallet address>`
-    3. Copy `pubkey`
-    4. If it says something about locked wallet go `walletpassphrase <walletpassword> <pick a number in seconds>` example: `walletpassphrase password 10000`
-    5. Type `decodescript <enter copied pubkey from step iii>`
-    6. Take the p2sh output and decode that to HEX on the base58 website
-    7. Then convert first 2 digits of hex. decimal value = script prefix
+    1. Vai alla console del wallet
+    2. Scrivi `validateaddress <wallet address>`
+    3. Copia `pubkey`
+    4. Se dice qualcosa sul wallet bloccato vai a `walletpassphrase <walletpassword> <pick a number in seconds>` esempio: `walletpassphrase password 10000`
+    5. Scrivi `decodescript <enter copied pubkey from step iii>`
+    6. Prendi l'output p2sh e decodificalo su HEX sul website base58 
+    7. Poi converti le prime 2 cifre di HEX. Valore decimale = script prefix
 
-3. Secret Prefix:
+3. Prefix Segreto:
 
-    1. Go to wallet console
-    2. Type `dumpprivkey <wallet address>`
-    3. Copy the `privkey` 
-    4. Decode the privkey to HEX on the base 58 website
-    5. Then convert first 2 digits of hex. decimal value = secret prefix
+    1. Vai alla console del wallet
+    2. Scrivi `dumpprivkey <wallet address>`
+    3. Copia la `privkey` 
+    4. Decodifica la privkey in HEX sul sitoweb base58 
+    5. Poi converti le prime 2 cifre di HEX. Valore decimale = prefix segreto
 
 4.  RPC Port:
 
