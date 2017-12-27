@@ -1,34 +1,34 @@
-# Decred CMD Line Setup For Blocknet DX
+# Configurare Decred CMD Line Per Blocknet DX
 
-THANKS TO @86b (Slack) for spending countless hours on this setup!
+GRAZIE A @86b (Slack) per aver trascorso ore e ore su questa configurazione!
 
-*This setup will gain a resp 200 on the Block DX w/ an error, this is being looked into.* 
+*Questa configurazione otterrá un resp di 200 sul blocco DX w/ un errore, questo é stato esaminato.* 
 
-* Go to: https://github.com/decred/decred-release/releases/tag/v1.0.5
+* Vai a: https://github.com/decred/decred-release/releases/tag/v1.0.5
 
-* Download: `dcrinstall-windows-amd64-v1.0.5.exe`
+* Scarica: `dcrinstall-windows-amd64-v1.0.5.exe`
 
-* Run the .exe
+* Esegui il .exe
 
-* Find the directory, it should be: `C:\Users\<NAME>\decred\ `
+* Trova la directory, dovrebbe essere: `C:\Users\<NAME>\decred\ `
 
 ---
 
-* Open 3 cmd prompt windows
-  * On all 3, change the directory to the source directory:
+* Apri 3 fineste cmd prompt 
+  * Su tutte e 3, cambia la directory con la directory sorgente:
   
-	  `cd C:\Users\<NAME>\decred` or wherever it was installed
+	  `cd C:\Users\<NAME>\decred` o dovunque sia installata
     
-## 1ST CMD PROMPT WINDOW
+## primaa CMD PROMPT 
 
-* Type:
+* Scrivi:
 
   * `dcrd --notls --rpcuser=CHANGE --rpcpass=CHANGE --minrelaytxfee=0.01 --rpclisten=127.0.0.1`
   	* (change rpc user/pass)
 
-* It will then connect and download the blockchain. Leave this running in the background
+* Dovrebbe connettersi e scaricare la blockchain. Lascialo in esecuzione in background
 
-## 2ND CMD PROMPT WINDOW
+## 2ndo CMD PROMPT WINDOW
 
 * Type: `dcrwallet --create`
 
