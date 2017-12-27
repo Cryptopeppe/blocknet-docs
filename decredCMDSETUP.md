@@ -59,31 +59,31 @@ GRAZIE A @86b (Slack) per aver trascorso ore e ore su questa configurazione!
 
 ## Torna Indietro Alla Seconda Finestra CMD PROMPT 
 
-* Type: 
+* scrivi: 
 
 	* `dcrctl -u CHANGE -P CHANGE --wallet --notls walletpassphrase <password> 1000000`
 		* (-u and -P is your user/pass from above)
 		* ("password" is your wallet password, but don’t use the <> symbols)
 
-* It should take you back to the directory
+* dovrebbe portarti indietro alla directory
 
-* Type: 
+* scrivi: 
 
 	* `dcrctl -u CHANGE -P CHANGE --wallet --notls createnewaccount "testDECRED"`
 		* (“testDECRED” is what I am calling my labelled address, use the quotation marks and label it whatever you want)
 
-* It should take you back to the directory
+* Dovrebbe portarti indietro alla directory
 
-* Type:
+* Scrivi:
 
 	* `dcrctl -u CHANGE -P CHANGE --wallet --notls getnewaddress "testDECRED"`
 		* (getnewaddress " " is whatever you wrote on the above command for a label)
 
-* This should output your labelled DCR address
+* Dovrebbe produrre il tuo indirizzo DCR etichettato
 
 ## XBRIDGE.conf
 
-* Go to your xbridge.conf and add this config for DCR:
+* Vai al tuo xbridge.conf e aggiungi questa configurazione per DCR:
 
 ```
 [DCR]
@@ -108,5 +108,5 @@ BlockTime=150
 FeePerByte=1000
 ```
 
-* Run xbridge
+* esegui xbridge
 
