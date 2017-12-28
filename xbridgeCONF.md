@@ -1,19 +1,19 @@
 # xbridge.conf
 
-* Under the ```[Main]``` heading, edit the following to suit your requirements:
+* Sotto l'intestazione ```[Main]```, modifica quanto segue per soddisfare le tue esigenze: 
 
-  * ```ExchangeWallets=``` Add/remove coin heading's here (only add the coin's you wish to host on your service node or trade with)
-  * ```LogPath=``` Change file path to desired location 
+  * ```ExchangeWallets=``` aggiungi/rimuovi l'intestazione della moneta qui ( aggiungi solamente la moneta che desideri ospitare o tradare sul tuo nodo di servizio)
+  * ```LogPath=``` Cambia il percorso del file ad una destinazione desiderata  
 
-* Under each ```[COIN]``` heading, edit the following to suit your individual wallet's RPC configuration:
+* Sotto ogni intestazione ```[COIN]```, modifica quanto segue per soddisfare le configurazione RPC del tuo wallet: 
 
-  * ```Address=``` Edit this field to match your labelled receive address
-  * ```Username=``` Edit this field to match RPCuser in the coin's .conf
-  * ```Password=``` Edit this field to match RPCpassword in the coin's .conf
+  * ```Address=```  Modifica questo campo per abbinare il tuo indirizzo di ricezione etichettato
+  * ```Username=``` Modifica questo campo per abbinare il RPCuser alla .conf della moneta
+  * ```Password=``` Modifica questo campo per abbinare la RPCpassword alla .conf della moneta
   
   * https://github.com/BlocknetDX/blocknet-docs/blob/master/walletsCONF.md
 
-* This master xbridge.conf contains all of the successfully traded coin's currently on the Blocknet DX. As future coin's go through the testing phase and have successful swaps, they will be announced accordingly. After the announcement those configuration parameters will be released on this document.
+* Questo xbridge.conf master contine tutte le correnti monete tradate con successo sulla Blocknet DX. Se una futura moneta passa per la fase di testing e viene scambiata con successo, sará di conseguenza annunciata. Dopo l'annuncio quei parametri di configurazione saranno rilasciati su questo documento.
 
 ```
 [Main]
