@@ -1,6 +1,6 @@
-# How to Setup Staking
+# Come Impostare Lo Staking
 
-1. Download the latest wallest release with the "Latest Release" tag. Do not use a "Pre-Release" build.
+1. Scarica l'ultima versione del wallet con il tag "Latest Release". non usare una delle "Pre-Release".
 
     - [https://github.com/BlocknetDX/BlockDX/releases]
  
