@@ -4,13 +4,13 @@
 
     - [https://github.com/BlocknetDX/BlockDX/releases]
  
-2. Let the wallet sync. This process should start automatically.
+2. Lascia sincronizzare il wallet. Questo processo dovrebbe iniziare automaticamente .
 
-3. While waiting to sync, encrypt the wallet by going to Settings > Encrypt Wallet
-    - A prompt to create a password will appear. Make sure to backup this password in a safe place. It may be required to restart the wallet after this
+3. Mentre aspetti la sincronizzazione finisca, crypta il wallet andando su Settings > Encrypt Wallet
+    - Apparirá un prompt per creare la password. Assicurati di conservare la password in un posto sicuro. Potrebbe rendersi necessario riavviare il wallet dopo questa azione
 
-4. Once fully synced, you will need to deposit funds to the wallet.
-    - To view your wallet address, go to File > Receiving addresses
+4. Una volta completata la sincronizzazione, dovrai depositare fondi nel wallet.
+    - Per vedere l'indirizzo del wallet, vai a File > Receiving addresses
 
 5. To start staking, go to Settings > Unlock Wallet. Check the "For anonymization and staking only" box, enter the password created above, click the "OK" button.
 
