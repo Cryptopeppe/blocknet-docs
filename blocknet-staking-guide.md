@@ -17,5 +17,5 @@
 6. Quando il wallet sta facendo staking con successo, vedrai un cerchio verde con una freccia verso l'alto nell'angolo in basso a destra del wallet.
     - Se i fondi sono appena stati depositati per la prima volta, hanno bisogno di maturare (raggiungere la soglia di conferma) quindi potrebbe richiedere un'ora o poco piú affinché l'icona diventi verde
     
-If there are any issues, join our community on Rocket Chat and visit the #wallet-support channel for help.
+Se ci sono problemi, unisciti alla nostra community su Rocket Chat e visita il canale #wallet-support se hai bisogno di aiuto.
 https://rocket.blocknet.co:8443/
