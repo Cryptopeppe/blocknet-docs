@@ -1,7 +1,7 @@
 # BLOCKNET
 ![alt text](https://github.com/BlocknetDX/blocknet-docs/blob/master/pictures/block.PNG "Logo Title Text 1")
 
-The Internet Of Blockchains
+L'Internet Delle Blockchains
 
 ## Blocknet Decentralised Exchange Service Node Setup
 
