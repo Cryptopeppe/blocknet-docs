@@ -14,7 +14,7 @@
 
 5. Per iniziare lo staking, vai a Settings > Unlock Wallet. Punta la casella "For anonymization and staking only", inserisci la password creata al passaggio sopra, clicca sul bottone "OK".
 
-6. When the wallet is staking successfully, you will see a green circle with and up-arrow at the bottom right corner of the wallet.
+6. Quando il wallet sta facendo staking con successo, vedrai un cerchio verde con una freccia verso l'alto nell'angolo in basso a destra del wallet.
     - If the funds were just deposited for the first time, the funds need to mature(reach confirmation threshold) so it may take and hour or so for the icon to turn green
     
 If there are any issues, join our community on Rocket Chat and visit the #wallet-support channel for help.
