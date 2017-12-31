@@ -22,7 +22,7 @@ La configurazione richiede un'integrazione tra il wallet Blocknet e il wallet de
 
 L'integrazione avviene tramite le API RPC del wallet. Per ragioni di sicurezza raccomandiamo di eseguire tutti i wallets su un'unica box e comunicare su localhost (127.0.0.1), anche se i wallets possono anche essere eseguiti su macchine differenti ed essere connessi tramite indirizzo IP. La documentazione generale e le funzionalitá JSON RPC sono disponibili a https://en.bitcoin.it/wiki/Running_Bitcoin.
 
-## Requirements
+## Requisiti
 * Two computers with the latest Blocknet client installed, encrypted, fully synced
    * Computer #1 will be the Service Node Server which will need to be running 24/7
       * This guide will refer to this computer as the " SNODE SERVER "
