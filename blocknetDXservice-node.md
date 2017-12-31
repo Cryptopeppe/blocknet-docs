@@ -3,11 +3,11 @@
 
 L'Internet Delle Blockchains
 
-## Blocknet Decentralised Exchange Service Node Setup
+## Exchange Decentralizzato Blocknet Configurazione Del Nodo Di Servizio
 
-**These instructions are to run as a service node for the Blocknet Decentralised Exchange.** 
+**Queste istruzioni devono essere eseguite come nodo di servizio per l'exchange decentralizzato Blocknet.** 
 
-* Blocknet’s DX uses the xbridgep2p™ blockchain router technology to enable users to exchange tokens and assets, and to utilise smart contracts between blockchains.
+* Il DX di Blocknet usa la tecnologia blockchain router xbridgep2p™ per consentire agli utenti di scambiare monete e assets, e utilizzare contratti smart tra blockchains.
 
 ## Overview
 Setup requires an integration between the Blocknet wallet and the wallets of coins you want as currency pairs. At this stage, nothing is automated and the UI on the new Blocknet wallet will be used until the final UI is complete. Configuration is by manually creating (or editing) .conf files: 
