@@ -9,7 +9,7 @@ L'Internet Delle Blockchains
 
 * Il DX di Blocknet usa la tecnologia blockchain router xbridgep2p™ per consentire agli utenti di scambiare monete e assets, e utilizzare contratti smart tra blockchains.
 
-## Overview
+## Panoramica
 Setup requires an integration between the Blocknet wallet and the wallets of coins you want as currency pairs. At this stage, nothing is automated and the UI on the new Blocknet wallet will be used until the final UI is complete. Configuration is by manually creating (or editing) .conf files: 
 
  * blocknetdx.conf
