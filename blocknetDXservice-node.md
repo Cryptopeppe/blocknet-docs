@@ -10,7 +10,7 @@ L'Internet Delle Blockchains
 * Il DX di Blocknet usa la tecnologia blockchain router xbridgep2p™ per consentire agli utenti di scambiare monete e assets, e utilizzare contratti smart tra blockchains.
 
 ## Panoramica
-Setup requires an integration between the Blocknet wallet and the wallets of coins you want as currency pairs. At this stage, nothing is automated and the UI on the new Blocknet wallet will be used until the final UI is complete. Configuration is by manually creating (or editing) .conf files: 
+La configurazione richiede un'integrazione tra il wallet Blocknet e il wallet delle monete volute come coppia di valuta. A questo punto, niente é automatizzato e la UI sul nuovo wallet Blocknet sará usata fino a che la UI finale non sia completa. Configurazione creata manualmente (o modifiche) .conf files:  
 
  * blocknetdx.conf
  
@@ -18,7 +18,7 @@ Setup requires an integration between the Blocknet wallet and the wallets of coi
 
  * xbridge.conf
 
- * configuration file for each currency you want to support
+ * file di configurazione per ogni valuta si desidera supportare
 
 Integration is via the wallets’ RPC APIs. For security reasons we recommend that wallets all run on a single box and communicate over localhost (127.0.0.1), though wallets may also be run on multiple machines and connect via IP address. General documentation on JSON RPC features is available @ https://en.bitcoin.it/wiki/Running_Bitcoin.
 
