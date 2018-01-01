@@ -23,12 +23,12 @@ La configurazione richiede un'integrazione tra il wallet Blocknet e il wallet de
 L'integrazione avviene tramite le API RPC del wallet. Per ragioni di sicurezza raccomandiamo di eseguire tutti i wallets su un'unica box e comunicare su localhost (127.0.0.1), anche se i wallets possono anche essere eseguiti su macchine differenti ed essere connessi tramite indirizzo IP. La documentazione generale e le funzionalitá JSON RPC sono disponibili a https://en.bitcoin.it/wiki/Running_Bitcoin.
 
 ## Requisiti
-* Two computers with the latest Blocknet client installed, encrypted, fully synced
-   * Computer #1 will be the Service Node Server which will need to be running 24/7
-      * This guide will refer to this computer as the " SNODE SERVER "
+* Due computers con l'ultimo client di Blocknet installato, criptato, completamente sincronizzato 
+   * Il computer #1 sará il Service Node Server il quale dovrá essere operativo 24/7
+      * Questa guida si riferirá a questo computer come " SNODE SERVER "
       
-   * Computer #2 will be the client computer where the 5000 Block is locked. This doesn't need to run 24/7.
-      * This guide will refer to this computer as the " CLIENT "
+   * Il computer #2 sará il computer client dove sono bloccati 5000 blochi. Non vi é bisogno di un'operativitá 24/7.
+      * Questa guida si riferirá a questo computer come " CLIENT "
 
 * Your SNODE SERVER computer Public IP address. Or the Public IP address if you're using a VPS/VPN for the SNODE SERVER computer.
 
