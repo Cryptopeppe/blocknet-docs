@@ -247,25 +247,24 @@ La tecnologia Xbridge di Blocknet é integrata nell'ultima versione del client. 
 
  * Potrai modificarlo in furuto per aggiungere nuove monete, e cambiare `RPCusername` `RPCpassword` `Port` `Address` 
  
- * Non cambbiare altre impostazioni nel file .conf a meno che non stai facendo test in testnet.
+ * Non cambiare altre impostazioni nel file .conf a meno che non stai facendo test in testnet.
  
 ---
 
-## Startup Sequence
- * Start the currency pair(s) you are running on your service node
-    * Ensure every wallet is fully sync'd and unlocked
+## Sequenza di Avvio
+ * Avvia le coppie di valuta che stai eseguendo sul tuo nodo
+    * Asicurati che ogni wallet sia completamente sincronizzato e sbloccato
     
+ * Avvia il wallet Blocknet sul computer SNODE SERVER con `-enableexchange`
+    * es: blocknetdx-qt.exe -enableexchange
 
- * Start the Blocknet wallet on the SNODE SERVER computer with `-enableexchange`
-    * ex: blocknetdx-qt.exe -enableexchange
-
- * If you want to always start in exchange mode, right click on desktop/folder icon of your node blocknetdx-qt. Then choose properties. Then change "...blocknetdx-qt.exe" to "...blocknetdx-qt.exe -enableexchange". Save. Now it always start with these attributes.
+ * Se vuoi sempre avviarlo in modalitá exchange, doppio clic sull'icona desktop/cartella del tuo nodo blocknetdx-qt. Poi scegli proprietá. Cambia "...blocknetdx-qt.exe" a "...blocknetdx-qt.exe -enableexchange". Salva. Adesso inizierá sempre con questi attributi.
  
-     * When you click the "BlocknetDX" tab on the wallet it should say "Exchange node".
-     * In the console type: `dxGetCurrencyList` to show your list of wallets running on your xbridge
-     * In the console type: `servicenode list`, search for your SNODE, under `xwallets` it will show the wallets you are hosting
+     * Qaudno clicchi la finesta "BlocknetDX" sul wallet dovrebbe dire "Exchange node".
+     * Nella console scrivi: `dxGetCurrencyList` per mostrare la lista di wallets aperti su xbridge
+     * Nella console scrivi: `servicenode list`, cerca il tuo SNODE, sotto `xwallets` mostra i wallets che stai ospitando
        
- * Ensure your servicenode is activated.
+ * Assicurati che il tuo nodo di servizio sia attivato.
   
 ---
 
