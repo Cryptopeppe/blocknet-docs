@@ -168,21 +168,21 @@ L'integrazione avviene tramite le API RPC del wallet. Per ragioni di sicurezza r
    
 ---
 
-## Setup  .conf Files for the Wallets on Your Service Node:
-The wallet of each coin you want to host needs to be configured with a username/password and an allow from IP, if you’re using only a local machine use IP:127.0.0.1
+## Configurazione Dei Files .conf Per i Wallets Sul Tuo Nodo Di Servizio
+Il wallet di ogni moneta che vuoi ospitare deve essere configurato con un username/password e un permesso dall'IP, se stai usando solo una macchina locale usa IP:127.0.0.1
 
- * To see the full list of compatible wallet configurations go to: [Wallet Configurations](https://github.com/BlocknetDX/blocknet-docs/blob/master/walletsCONF.md)
+* Per vedere la lista completa dei wallet compatibili alla configurazione vai a: [Configurazioni Wallets](https://github.com/BlocknetDX/blocknet-docs/blob/master/walletsCONF.md)
 
- * Download the latest wallet, let it sync up fully, then close the wallet
+ * Scarica l'ultima versione del wallet, lascialo sincronizzare completamente, successivamente chiudi il wallet
 
- * Click the START button on your desktop, where it says “Search program and files” then type “%appdata%” and the “Roaming” directory should pop up. Click on “Roaming” or hit enter
+ * Clicca il bottone START sul tuo desktop, dove dice "Cerca programmi e files" scrivi “%appdata%”  e poi dovrebbe apparire la directory "Roaming". Clicca su "Roaming" o premi invio.
+ 
+ * Trova le informazioni del tuo wallet nellcartella della sua directory, es: Bitcoin
 
- * Find your wallet’s designated data directory folder, ex: Bitcoin
+ * Se non hai un file .conf avviato devi aprire Notepad per crearne uno.
 
- * If you don’t have a .conf file started you will need to open up Notepad to create one.
-
- * Navigate to [Wallet Configurations](https://github.com/BlocknetDX/blocknet-docs/blob/master/walletsCONF.md) and copy/paste the configuration information for the wallet you are running. (this can be added to what is already present in file if you have “addnodes” or other configurations already):
-   * Ex: bitcoin.conf
+ * Naviga a [Configurazioni Wallet](https://github.com/BlocknetDX/blocknet-docs/blob/master/walletsCONF.md) e copia/incolla le informazioni di configurazione per il wallet che stai eseguendo. (Puó essere agiunto a quanto giá presente nel file se hai “addnodes” o altre configurazioni):
+   * Es: bitcoin.conf
    
    ```
    server=1
@@ -192,22 +192,22 @@ The wallet of each coin you want to host needs to be configured with a username/
    rpcallowip=127.0.0.1
    ```
    
-   * Ensure the configuration is correct. Do not assume the configurations are the same for each wallet.
+   * Assicurati che la configurazione sia corretta.Non presupporre che le configurazioni siano uguali per ogni wallet.
 
- * Change `rpcuser` and `rpcpassword` to something unique to you. For security reasons you should have a different RPC username and password for each wallet
+ * Cambia `rpcuser` e `rpcpassword` in qualcosa di unico per te. Per ragioni di siscurezza dovresti avere un username e password RPC differente per ogni wallet
 
- * If you’re using a single machine use IP: `127.0.0.1`
+ * Se stai usando una singola macchia usa IP: `127.0.0.1`
 
- * When you are done, click File, Save as, Type in: `bitcoin.conf`
-    * Ensure the file is not `bitcoin.conf.txt`
+ * Quando hai finito, clicca File, Salva come, Scrivi: `bitcoin.conf`
+    * Assicurati che il file non sia `bitcoin.conf.txt`
 
- * Save it and then place the .conf into its corresponding wallet folder
-    * For this example: %Appdata%/Roaming/Bitcoin 
+ * Salvalo e rimpiazza il .conf nella cartella corrispondente del wallet
+    * Per questo esempio: %Appdata%/Roaming/Bitcoin 
 
- * Remember what you wrote for the username, password, and IP
+ * Ricorda cos'hai scritto per l'username, password, e IP
 
- * Create .conf files for each wallet you are going to be using on the decentralised exchange.
-    * Ensure `rpcuser` and `rpcpassword` are different on each wallet for security purposes
+ * Creare i files .conf per ogni wallet che userai sull'exchange decentralizzato.
+    * Assicurati che `rpcuser` e `rpcpassword` siano differenti su ogni wallet per ragioni di sicurezza
  
 ---
 
