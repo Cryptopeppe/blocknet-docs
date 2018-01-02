@@ -211,20 +211,20 @@ Il wallet di ogni moneta che vuoi ospitare deve essere configurato con un userna
  
 ---
 
-## Configure Coin Addresses
-In each hosted coin wallet, create a new address and label it something informative, like “DX address” (xbridge expects a labelled receive address)
+## Configurare Gli Indirizzi Delle Monete
+In ogni wallet ospitato, creare un nuovo indirizzo ed etichettarlo con qualcosa di informativo, come "indirizzo DX" (xbridge si aspetta un indirizzo di ricezione etichettato)
 
- * To create a new address, go to your wallet’s “receive” tab and click “new address”
+ * Per creare un nuovo indirizzo, vi alla scheda del wallet “receive” e clicca “new address”
 
- * To label an address, you may either right-click on it or click the “label” field.
+ * Per etichettare un indirizzo, devi fare doppio clic sopra oppure clicca il campo “label”.
  
  ![alt text](https://github.com/BlocknetDX/blocknet-docs/blob/master/pictures/labelledaddress.PNG "Logo Title Text 1") 
 
- * This needs to be done for all wallets being used
+ * Ció va fatto per tutti i wallet che vengono usati
 
 ---
 
-## Setup xbridge.conf
+## Configurazione xbridge.conf
 
 The Blocknet’s Xbridge technology is integrated into the latest client release. See [GitHub](https://github.com/BlocknetDX/BlockDX) for the source code.
 
