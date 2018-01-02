@@ -2,7 +2,7 @@
 
 ![alt text](https://github.com/BlocknetDX/blocknet-docs/blob/master/pictures/block.PNG "Logo Title Text 1")
 
-The Internet Of Blockchains
+Internet Delle Blockchains
 
 
 ## Hotlinks
@@ -22,9 +22,9 @@ The Internet Of Blockchains
   * [FAQ](https://github.com/BlocknetDX/blocknet-docs/blob/master/blocknetFAQ.md)
   * Wiki
 
-## Block Specs
-  * Max/Circulating Coin Supply: 4,858,000 BLOCK
-  * Consensus Algorithm: Proof-of-Stake (PoS)
+## Specificazioni Block 
+  * Max/Offerta Di Moneta Circolante: 4,858,000 BLOCK
+  * Algoritmo Di Consenso: Proof-of-Stake (PoS)
   * Codebase: PPC
   * Wallet: https://github.com/BlocknetDX/BlockDX/releases
   * Exchanges: [Bittrex](https://bittrex.com/Market/Index?MarketName=BTC-BLOCK) | [Nova](https://novaexchange.com/market/BTC_BLOCK/) | Blocknet DX | [Upbit](https://upbit.com/exchange?code=CRIX.UPBIT.BTC-BLOCK)
@@ -34,32 +34,34 @@ The Internet Of Blockchains
   * [Proof-of-Burn Code](https://gist.github.com/Earlz/fa942122ce27c90ea9a6)
 
 ## Core Team
- * Dan Metcalf (@atcsecure) - Main Developer and Co-Founder of Blocknet
- * Arlyn Culwick (@synechist) -  Generalist and Co-Founder of Blocknet
- * Hanni Abu (@hanniabu) - Project Coordinator
- * @philipmarshall - Social Coordinator
- * Alexander Hemdorff Koch (@dungor) - Strategic Advisor
+ * Dan Metcalf (@atcsecure) - Sviluppatore Principale e Cofondatore di Blocknet
+ * Arlyn Culwick (@synechist) -  Generalist e Cofondatore di Blocknet
+ * Hanni Abu (@hanniabu) - Direttore del Progetto
+ * @philipmarshall - Direttore Social Media
+ * Alexander Hemdorff Koch (@dungor) - Consulente Strategico
  * Jeff Madgett (@86b) - User Acceptance Testing
  * @aderks - User Acceptance Testing
- * Michael Madgett (@michael) - Core Developer
- * Steve Matyk (@sawtoothgeek) - Core Developer
- * Ander Rackcheev (@arckcheev) - Project Manager of Euro Development Team
- * @xenix - Euro Development Team
- * @boa - Euro Development Team
- * Community Contributors: @lautrer, @stormingj, @infinity7592, @cricket, @mushoz, @ishkb, @jrocket, @baron
+ * Michael Madgett (@michael) - Sviluppatore Principale
+ * Steve Matyk (@sawtoothgeek) - Sviluppatore Principale
+ * Ander Rackcheev (@arckcheev) - Manager di Progetto del Team di Sviluppo Euro 
+ * @xenix - Team di Sviluppo Euro
+ * @boa - Team di Sviluppo Euro
+ * Collaboratori della Community: @lautrer, @stormingj, @infinity7592, @cricket, @mushoz, @ishkb, @jrocket, @baron
  
-## Core Team Interviews 
- * [Video interview with Dan](https://www.youtube.com/watch?v=bHNR7kbjYzg)
- * [Radio interview with Arlyn](https://soundcloud.com/coremediaradio/blocknet)
- * [Reddit AMA](https://www.reddit.com/r/theblocknet/comments/676buj)
+## Interviste al Team Principale 
+ * [Video intervista con Dan](https://www.youtube.com/watch?v=bHNR7kbjYzg)
+ * [Radio intervista con Arlyn](https://soundcloud.com/coremediaradio/blocknet)
+ * [Reddit "AMA"](https://www.reddit.com/r/theblocknet/comments/676buj)
 
 
 
-# Overview
+# Panoramica
 
-## What Blocknet Is
-The Blocknet is infrastructure for the coming “inter-blockchain era,” an emerging technology epoch characterised primarily by the superseding of the current API ecosystem with an intrinsically monetizable “token ecosystem.” 
+## Cos'é Blocknet
+Blocknet é l'infrastruttura per la prossima "internet blockchain era", una nuova epoca della tecnologia caratterizzata in primis
+dal superamento del corresti ecosistema di API con un "ecosistema moneta" intrinsecamente monetizzabile.
 
+Dalla prospettiva delle tecnologia blockchain, se le blockchain devono raggiungere il loro vero potenziale,
 From the perspective of blockchain technology, if blockchains are to achieve their true potential, then broad, generic interoperability between blockchain services is required. Without inter-chain interoperability, blockchain-based services will (a) either deliver services only within the confines of the limited customer base that runs its nodes, or sacrifice the unique security properties of blockchains in delivering to centralized entities, and (b) face enduring problems with chain bloat and, relatedly, the market-related pressure to build further features onto a single chain. 
 
 From the perspective of software-as-a-service (SaaS), the token ecosystem embodies two fundamental advancements: (a) the comparatively frictionless monetisation of services, and (b) the leveraging of the unique robustness, decentralization, and security properties of blockchain technology. 
