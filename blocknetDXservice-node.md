@@ -30,7 +30,7 @@ L'integrazione avviene tramite le API RPC del wallet. Per ragioni di sicurezza r
    * Il computer #2 sará il computer client dove sono bloccati 5000 blochi. Non vi é bisogno di un'operativitá 24/7.
       * Questa guida si riferirá a questo computer come " CLIENT "
 
-* L'indirizzo pubblico IP del tuo computer SNODE SERVER. O l'indirizzo IP pubblico se stai usando una VPS/VPN per il ercomput SNODE SERVER.
+* L'indirizzo pubblico IP del tuo computer SNODE SERVER. O l'indirizzo IP pubblico se stai usando una VPS/VPN per il computer SNODE SERVER.
 
 * 5000 Block bloccato all'indirizzo del nodo di servizio sul computer CLIENT (il 5000 Block non puó fare stake finché bloccato)
 
@@ -39,15 +39,15 @@ L'integrazione avviene tramite le API RPC del wallet. Per ragioni di sicurezza r
 * I files .conf propriamente configurati per ogni wallet
 
 
-## Service Node Setup
+## Impostazione Del Nodo Di Servizio
 
-* Download the latest wallet release on two computers or VPS 
+* scarica l'ultima versione del wallet su due computer o VPS 
    * [GitHub Releases](https://github.com/BlocknetDX/BlockDX/releases)
    
-* On each computer let the wallet fully sync. Once that is complete encrypt both wallets with a password of your choice
-   * If you are testing please use `testnet=1` or `-testnet` for `blocknetdx-qt.exe`
+* Su ogni computer lascia sincronizzare completamente il wallet. Una volta completato cripta entrambi i wallets con una password a tua scelta 
+   * Se stai facendo testing per favore usa `testnet=1` o `-testnet` per `blocknetdx-qt.exe`
    
-### CLIENT Computer Wallet Setup   
+### Impostazione Del Wallet Del Computer Client   
    
 * Navigate the top toolbar to: `Tools > Debug console`
    * Type `getaccountaddress <name>` (This generates a public address key for your service node. Create a unique service node name.)
