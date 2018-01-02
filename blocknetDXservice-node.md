@@ -58,7 +58,7 @@ L'integrazione avviene tramite le API RPC del wallet. Per ragioni di sicurezza r
    * Prendi nota di questi prodotti generati siccome saranno necessari nei files di configurazione
    
 * Qualsiasi sia il wallet sul quale i tuoi fondi sono situati invia esattamente 5000 Block (tBlock in testnet) all'indirizzo pubblico che hai creato nello step precedente
-   * L'indirizzo deve avere ESATTAMENTE 5000 Block (or tBLock) per lavorare adeguatamente
+   * L'indirizzo deve avere ESATTAMENTE 5000 Block (o tBLock) per lavorare adeguatamente
    
    * Sotto l'opzione "Send", clicca il bottone "Choose..." accanto l'opzione Transaction Fee. Quando invii i 5000 Block, assicurati che "Send as zero-fee transaction if possible" sia spuntato. 
    
@@ -226,28 +226,28 @@ In ogni wallet ospitato, creare un nuovo indirizzo ed etichettarlo con qualcosa 
 
 ## Configurazione xbridge.conf
 
-The Blocknet’s Xbridge technology is integrated into the latest client release. See [GitHub](https://github.com/BlocknetDX/BlockDX) for the source code.
+La tecnologia Xbridge di Blocknet é integrata nell'ultima versione del client. Vedi [GitHub](https://github.com/BlocknetDX/BlockDX) per il codice sorgente.
 
- * To see the full list of coin .conf's see: [xbridge.conf](https://github.com/BlocknetDX/blocknet-docs/blob/master/xbridgeCONF.md)
+ * Per vedere la lista completa delle monete .conf vedi: [xbridge.conf](https://github.com/BlocknetDX/blocknet-docs/blob/master/xbridgeCONF.md)
 
- * Create/edit an `xbridge.conf` file and place the following configuration file in the blocknet wallet data directory (for Windows) C:\Users\[yourusername]\AppData\Roaming\blocknetdx\
+ * Creare/modificare un file `xbridge.conf` posizionando il seguente file di configurazione nel wallet Blocknet nelal directory data (per Windows) C:\Users\[yourusername]\AppData\Roaming\blocknetdx\
 
- * Note: to avoid crashes or failed trades, please edit your `xbridge.conf` to feature only and all the coins you wish to have on your service node
+ * Nota: Per evitare crashes o trade invalidi, per favore modifica le funzionalitá `xbridge.conf` su solo o tutte le coin che desideri avere sul tuo nodo di servizio
 
- * Paste the RPC usernames and passwords you created for each currency pair into the “Username” and “Password” fields
+ * Incolla l'username e la password RPC che hai creato per ogni coppia di valuta nei campi “Username” e “Password” 
  
- * Paste the address of the "labelled receive address" you created for each currency pair
+ * Incolla l'indirizzo del "labelled receive address" che hai creato per ogni coppia di valuta
  
- * Ensure the rest of the configuration matches [xbridge.conf](https://github.com/BlocknetDX/blocknet-docs/blob/master/xbridgeCONF.md) for each coin
+ * Assicurati che il resto delle configurazioni combaci con [xbridge.conf](https://github.com/BlocknetDX/blocknet-docs/blob/master/xbridgeCONF.md) per ogni moneta
 
- * Save the File (if you just edited the existing file, just click save, if you made a new file then click file, save as, and in the file name type: `xbridge.conf`
-    * Ensure the file is not `xbridge.conf.txt`
+ * Salva il file (se hai appena modificato il file esistente, clicca salva, se hai creato un nuovo file clicca file, salva come, e nel nome file scrivi: `xbridge.conf`
+    * Assicurati che il file non sia `xbridge.conf.txt`
 
- * Place this file into the Blocknet data directory folder: "C:\Users\[yourusername]\AppData\Roaming\blocknetdx\"
+ * Posiziona il file nella cartella directory data di Blocknet: "C:\Users\[yourusername]\AppData\Roaming\blocknetdx\"
 
- * You will be coming back to this to edit it in the future to add future coins, and change `RPCusername` `RPCpassword` `Port` `Address` 
+ * Potrai modificarlo in furuto per aggiungere nuove monete, e cambiare `RPCusername` `RPCpassword` `Port` `Address` 
  
- * Do not change the other settings in the .conf file unless you are on testnet conducting tests.
+ * Non cambbiare altre impostazioni nel file .conf a meno che non stai facendo test in testnet.
  
 ---
 
