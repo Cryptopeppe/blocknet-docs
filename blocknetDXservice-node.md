@@ -130,41 +130,41 @@ L'integrazione avviene tramite le API RPC del wallet. Per ragioni di sicurezza r
 * Il computer CLIENT riceverá il " Servicenode Rewards "
 
 
-### Status Checks
+### Controllo Status
 
-* On the SNODE SERVER computer navigate the top toolbar to: `Tools > Debug console`
-   * Type `servicenode debug` (This will output a message "Servicenode successfully started")
+* Sul computer SNODE SERVER dal toolbar navigare a: `Tools > Debug console`
+   * Scrivere `servicenode debug` (Ció produrrá un messaggio "Servicenode successfully started")
    
-   * Type `servicenode status` (This will output your service node information and a successful message at the end of it)
+   * Scrivere `servicenode status` (Ció produrrá le informazioni sul tuo nodo di servizio e alla fine un messaggio di successo)
    
   ![alt text](https://github.com/BlocknetDX/blocknet-docs/blob/master/pictures/snode_status.PNG "Logo Title Text 1")    
    
-* If you did not receive "Servicenode successfully started" proceed to the next "Troubleshooting section"
+* Se non hai ricevuto "Servicenode successfully started" procedi a "Troubleshooting section"
 
-* If you received a "Servicenode successfully started" proceed to setup your .conf files for the wallets on your service node
+* Se hai ricevuto "Servicenode successfully started" procedi nella configurazione dei files .conf per il wallet sul tuo nodo di servizio
    
    
-### Troubleshooting
+### Risoluzione Dei Problemi
 
-* Ensure your `servicenode.conf` information is correct to your settings
+* Assicurati che le informazioni di `servicenode.conf` siano corrette per le tue impostazioni
 
-* Ensure you don't have "< >" in any of the configuration files : (ex: `servicenodeaddr=<your_public_IP:41474>` should be `servicenodeaddr=127.0.0.1:41412`. "127.0.0.1 is an example IP address")
-   * Ensure you are using the correct P2P PORT #
+* Assicurati di non avere nessuna "< >" in ogni tuo files di configurazione: (es: `servicenodeaddr=<your_public_IP:41474>` dovrebbe essere `servicenodeaddr=127.0.0.1:41412`. "127.0.0.1 é un esempio di indirizzo IP")
+   * Assicurati di usare la corretta P2P PORT #
      * Main-net=`41412` 
      * Test-net=`41474`
 
-* Ensure on the CLIENT computer you only have a `servicenode.conf`, the `blocknetdx.conf` is not needed on the CLIENT computer
-   * For testnet ensure `servicenode.conf` is located in `/testnet4/`
+* Assicurati che sul computer CLIENT hai solamente `servicenode.conf`, e `blocknetdx.conf` non é necessario sul computer CLIENT 
+   * Per la testnet assicurati che `servicenode.conf` é collocato in `/testnet4/`
 
-* Ensure on the SNODE SERVER computer you only have a `blocknetdx.conf`, the `servicenode.conf` is not needed on the SNODE SERVER computer
-   * For testnet ensure `blocknetdx.conf` is located in `/blocknetdx/` and not `/testnet4/`
-   * If you are a tester, there will be a CMD line startup guide so you don't have to edit this configuration when you switch from main-net and test-net
+* Assicurati che sul computer SNODE SERVER hai solamente`blocknetdx.conf`, e `servicenode.conf` non é necessario sul computer SNODE SERVER 
+   * Per la testnet assicurati che `blocknetdx.conf` sia collocato in `/blocknetdx/` e non `/testnet4/`
+   * Se sei un tester, ci sará una guida di inizio linea CMD cosí non hai bisogno di modificare questa configurazione quando passi dalla main-net alla test-net
    
-* Ensure your configuration files are not `servicenode.conf.txt`
+* Assicurati che il tuo file di configurazione non sia `servicenode.conf.txt`
 
-* Ensure the 5000 Block is exactly 5000 Block, no more or no less and ensure it's confirmed
+* Assicurati che i 5000 Block siano esattamente 5000 Block, non uno in piú non uno in meno e assicurati che siano confermati
 
-* Ensure you have the latest wallet and that it's fully sync'd and fully unlocked   
+* Assicurati di aver l'ultima versione del wallet e che sia completamente sincronizzato e completamente sbloccato   
    
 ---
 
