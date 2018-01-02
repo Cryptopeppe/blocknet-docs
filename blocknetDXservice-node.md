@@ -32,7 +32,7 @@ L'integrazione avviene tramite le API RPC del wallet. Per ragioni di sicurezza r
 
 * L'indirizzo pubblico IP del tuo computer SNODE SERVER. O l'indirizzo IP pubblico se stai usando una VPS/VPN per il computer SNODE SERVER.
 
-* 5000 Block bloccato all'indirizzo del nodo di servizio sul computer CLIENT (i 5000 Block non possono essere soggetti a stake finché rimangono bloccati)
+* 5000 Block bloccati all'indirizzo del nodo di servizio sul computer CLIENT (i 5000 Block non possono essere soggetti a stake finché rimangono bloccati)
 
 * L'ultima versione del wallet di ogni criptovaluta che vuoi supportare sul tuo nodo di servizio (completamente sincronizzato, criptato)
 
@@ -79,21 +79,21 @@ L'integrazione avviene tramite le API RPC del wallet. Per ragioni di sicurezza r
 * Naviga fino alla tua BLOCKENT directory (la predefinita é: `%appdata%/roaming/blocknetdx/`)
    * Creare/modificare il file `servicenode.conf` (`/blocknetdx/testnet4/` per utenti testnet)
    
-   * There should be an example of how the configuration needs to be in this file: (You can delete this after yours is typed in)
-   ![alt text](https://github.com/BlocknetDX/blocknet-docs/blob/master/pictures/snode_conf_ex.PNG "Logo Title Text 1")
+   * Vi é un esempio di come la configurazione dovrebbe essere fatta in questo file: (puoi eliminarlo dopo che il tu)
+  o é stato scritto) ![alt text](https://github.com/BlocknetDX/blocknet-docs/blob/master/pictures/snode_conf_ex.PNG "Logo Title Text 1")
    
-   * Enter your generated information from above in the format shown in this example:
+   * Inserisci le informazioni generate da sopra nel format mostrato in questo esempio:
    ```
    snode01 <YOUR_PUBLIC_IP:41474> <YOUR_SERVICENODE_PRIVATE_KEY> <COLLATERAL_TX_OUTPUT> <TX_OUTPUT_INDEX>
    ```
    
-   * Save `servicenode.conf` 
+   * Salva `servicenode.conf` 
    
-   * Create/edit `blocknetdx.conf`. Add `staking=0`. Save `blocknetdx.conf`
+   * Creare/Modificare `blocknetdx.conf`. Aggiungere `staking=0`. Salvare `blocknetdx.conf`
   
-   * Restart the wallet. Fully unlock the wallet.
+   * Riavviare il wallet. Sbloccare completamente il wallet.
    
-### SNODE SERVER Computer Wallet Setup
+### Configurazione wallet computer SNODE SERVER
 
 * Navigate to your Blocknet data directory (default is: `%appdata%/roaming/blocknetdx/`)
    * Create/edit the `blocknetdx.conf` file
