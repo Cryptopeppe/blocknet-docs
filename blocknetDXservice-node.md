@@ -71,13 +71,13 @@ L'integrazione avviene tramite le API RPC del wallet. Per ragioni di sicurezza r
    
    * Prendi nota di questi outputs generati siccome saranno necessari nei files di configurazione
    
-* Now you need to retrieve your SNODE SERVER computer Public IP address. If you only use one Public IP address, go to Google and search "what's my ip". Your Public IP address will be displayed. Take note of this address as it will be needed in the configuration files
-   * If you're using a VPN or VPS for the SNODE SERVER computer, you need to retrieve that Public IP address.
-   * Main-net users use YOUR_PUBLIC_IP:41412
-   * Test-net users use YOUR_PUBLIC_IP:41474
+* Adesso hai bisogno di recuperare l'indirizzo IP pubblico del tuo computer SNODE SERVER. Se usi solamente un indirizzo IP pubblico, vai su Google e cerca "what's my ip". Ti verrá mostrato il tuo indirizzo IP pubblico. Prendi nota di questo indirizzo siccome sará necessario per la configurazione dei files
+   * Se stai usando una VPN o una VPS per il computer SNODE SERVER, devi recuperare quell'indirizzo IP pubblico.
+   * Gli utenti della Main-net usano YOUR_PUBLIC_IP:41412
+   * Gli utenti della Test-net usano YOUR_PUBLIC_IP:41474
    
-* Navigate to your Blocknet data directory (default is: `%appdata%/roaming/blocknetdx/`)
-   * Create/edit the `servicenode.conf` file (`/blocknetdx/testnet4/` for testnet users)
+* Naviga fino alla tua BLOCKENT directory (la predefinita é: `%appdata%/roaming/blocknetdx/`)
+   * Creare/modificare il file `servicenode.conf` (`/blocknetdx/testnet4/` per utenti testnet)
    
    * There should be an example of how the configuration needs to be in this file: (You can delete this after yours is typed in)
    ![alt text](https://github.com/BlocknetDX/blocknet-docs/blob/master/pictures/snode_conf_ex.PNG "Logo Title Text 1")
