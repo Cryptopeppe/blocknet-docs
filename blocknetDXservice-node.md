@@ -95,11 +95,11 @@ L'integrazione avviene tramite le API RPC del wallet. Per ragioni di sicurezza r
    
 ### Configurazione wallet computer SNODE SERVER
 
-* Navigate to your Blocknet data directory (default is: `%appdata%/roaming/blocknetdx/`)
-   * Create/edit the `blocknetdx.conf` file
-     * If you are using testnet, `blocknetdx.conf` needs to stay in `%appdata%/roaming/blocknetdx/` and NOT in the `/testnet4/` folder
+* Naviga fino alla tua directory Blocknet data (la predefinita é: `%appdata%/roaming/blocknetdx/`)
+   * Creare/modificare il file `blocknetdx.conf` 
+     * Se stai usando la testnet, `blocknetdx.conf` deve rimanere in `%appdata%/roaming/blocknetdx/` e NON nella cartella `/testnet4/` 
      
-   * Type the following information into your `blocknetdx.conf` file: (use staking=1 if you want to stake on the SNODE SERVER client)
+   * Scrivi le seguenti informazioni nel tuo file `blocknetdx.conf`: (usa staking=1 se vuoi fare stake sul client SNODE SERVER client)
    
    ```
    staking=1
@@ -108,26 +108,26 @@ L'integrazione avviene tramite le API RPC del wallet. Per ragioni di sicurezza r
    servicenodeprivkey=YOUR_SERVICENODE_PRIVATE_KEY
    ```
    
-   * Save the `blocknetdx.conf` and restart the wallet. Fully unlock the wallet.
+   * Salva la `blocknetdx.conf` e riavvia il wallet. Sblocca completamente il wallet.
    
-### Starting Service Node(s)
+### Avvio Del Nodo(i) Di Servizio
 
-* On the CLIENT computer navigate to the "Servicenodes" button on the GUI. If the setups were done correctly you should see all of your "Aliases"
+* Sul computer CLIENT navigare fino al bottone "Servicenodes" sulla GUI. Se la configurazione é stata fatta correttamente dovresti vedere tutti i tuoi "Aliases"
 
-#### Activate via Debug Console
+#### Attiva Tramite La Console Di Debug
 
-* Navigate to `Tools > Debug console`
+* Navigare a `Tools > Debug console`
 
-* Type: `servicenode start-alias <name>` Ex: `servicenode start-alias snode1`
+* Scrivere: `servicenode start-alias <name>` es: `servicenode start-alias snode1`
 
-* The status of your node(s) should be "ENABLED" and show an "Active time"
-   * It may take a moment to show enabled and/or an active time.
+* Lo status del tuo nodo(i) dovrebbe essere "ENABLED" e mostrare un "Active time"
+   * Potrebbe richiedere un momento per mostrare enabled e/o un active time.
    
 ![alt text](https://github.com/BlocknetDX/blocknet-docs/blob/master/pictures/snode_alias.PNG "Logo Title Text 1")    
    
-* Your Service Node(s) are running successfully. You can close off the CLIENT computer Blocknet wallet if you want.  
+* Il tuo nodo(i) é in esecuzione correttamente. Puoi chiuedere il computer CLIENT Blocknet wallet se vuoi.
    
-* The CLIENT computer will receive the " Servicenode Rewards "
+* Il computer CLIENT riceverá il " Servicenode Rewards "
 
 
 ### Status Checks
