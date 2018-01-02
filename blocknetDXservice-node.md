@@ -30,13 +30,13 @@ L'integrazione avviene tramite le API RPC del wallet. Per ragioni di sicurezza r
    * Il computer #2 sará il computer client dove sono bloccati 5000 blochi. Non vi é bisogno di un'operativitá 24/7.
       * Questa guida si riferirá a questo computer come " CLIENT "
 
-* Your SNODE SERVER computer Public IP address. Or the Public IP address if you're using a VPS/VPN for the SNODE SERVER computer.
+* L'indirizzo pubblico IP del tuo computer SNODE SERVER. O l'indirizzo IP pubblico se stai usando una VPS/VPN per il ercomput SNODE SERVER.
 
-* 5000 Block to be locked into a service node address on the CLIENT computer (the 5000 Block cannot stake while it is locked)
+* 5000 Block bloccato all'indirizzo del nodo di servizio sul computer CLIENT (il 5000 Block non puó fare stake finché bloccato)
 
-* The latest wallet of each currency you want to support on your service node (fully synced, encrypted)
+* L'ultima versione del wallet di ogni criptovaluta che vuoi supportare sul tuo nodo di servizio (completamente sincronizzato, criptato)
 
-* Properly configured .conf files for each wallet
+* I files .conf propriamente configurati per ogni wallet
 
 
 ## Service Node Setup
