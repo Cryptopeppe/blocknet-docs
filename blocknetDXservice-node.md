@@ -289,16 +289,16 @@ All'avvio del wallet, vedrai il DX usando i valori che hai inserito nel file `xb
 ---
 
 ## Diagnosi Dei Problemi
-* To verify that each wallet is communicating with xbridge make sure the created receive addresses for each wallet is listed in the address book. If this part fails, close your wallets and review their configuration files.
+* Per verificare che ogni wallet sia in comunicazione con xbridge assicurati che l'indirizzo ricevente creato per ogni wallet sia elencato nel libro degli indirizzi. Se questa parte fallisce, chiudi i tuoi wallets e rivedi i loro file di configurazione.
 
-* If you made changes to any .conf file you need to close and restart that wallet, including Blocknet 
+* Se operi qualche cambio a qualsiasi file .conf devi chiudere e reiniziare quel wallet, incluso Blocknet
 
-* Verify the ports are actually open. You may use Command Prompt to do so by typing in `netstat -an` and reviewing the print. Check that the ports you specified in the .conf files (ex: 8332 for Bitcoin) are open over localhost (127.0.0.1).
+* verifica le porte attualmente aperte. puoi usare il Promp dei Comandi per farlo, scrivendovi `netstat -an` e controllando quanto viene visualizzato. Controlla che le porte specificate nei files .config (es: 8332 per Bitcoin) siano aperte sul localhost (127.0.0.1).
 
-* Ensure all .conf files are configured properly. These configurations are very case-sensitive. Any wrong data entered in them could be causing the issues.
+* Assicurati che tutti i files .config siano configurati propriamente. Queste configurazioni sono case sensitive. Qualsiasi dato sbagliato inserito potrebbe causare problemi.
 
-* Check that no OS-based firewall is blocking communication. You may do this through your firewall’s interface.
+* Controlla che nessun firewall basata sull'OS stai bloccando le comunicazione. Puoi farlo attraverso l'interfaccia del firewall.
 
-* Check the xbridge log for any errors in: C:\Users\yourusername\AppData\Roaming\blocknetdx\log
+* Controlla il log di xbridge per qualsiasi errore in: C:\Users\yourusername\AppData\Roaming\blocknetdx\log
 
-* Check on general wallet events in C:\Users\yourusername\AppData\Roaming\walletname\debug.log
+* Cerca negli eventi generali del wallet in C:\Users\yourusername\AppData\Roaming\walletname\debug.log
