@@ -57,19 +57,19 @@ L'integrazione avviene tramite le API RPC del wallet. Per ragioni di sicurezza r
    
    * Prendi nota di questi prodotti generati siccome saranno necessari nei files di configurazione
    
-* Whichever wallet your funds are located in send exactly 5000 Block (tBlock if on testnet) to the public address you created on the previous step
-   * The address needs to have EXACTLY 5000 Block (or tBLock) to work properly
+* Qualsiasi sia il wallet sul quale i tuoi fondi sono situati invia esattamente 5000 Block (tBlock in testnet) all'indirizzo pubblico che hai creato nello step precedente
+   * L'indirizzo deve avere ESATTAMENTE 5000 Block (or tBLock) per lavorare adeguatamente
    
-   * Under the "Send" option, click the "Choose..." button beside the Transaction Fee option. When you send the 5000 Block, ensure "Send as zero-fee transaction if possible" is checked off. 
+   * Sotto l'opzione "Send", clicca il bottone "Choose..." accanto l'opzione Transaction Fee. Quando invii i 5000 Block, assicurati che "Send as zero-fee transaction if possible" sia spuntato. 
    
 ![alt text](https://github.com/BlocknetDX/blocknet-docs/blob/master/pictures/send_5000.PNG "Logo Title Text 1")
    
-* Wait for the CLIENT computer to receive the 5000 Block and have at least 15 confirmations on the TX
+* Aspetta che il computer CLIENT riceva i 5000 Block e abbia almeno 15 confermazioni sulla TX
 
-* Once the TX is fully confirmed navigate back to: `Tools > Debug console`
-   * Type `servicenode outputs` (This outputs the servicenode TX information needed in the `servicenode.conf`)
+* Una volta che la TX é completamente confermata torna indietro a: `Tools > Debug console`
+   * Scrivi `servicenode outputs` (Ció produce le informazioni TX sul nodo di servizio necessarie nel `servicenode.conf`)
    
-   * Take note of these generated outputs as they will be needed in the configuration files
+   * Prendi nota di questi outputs generati siccome saranno necessari nei files di configurazione
    
 * Now you need to retrieve your SNODE SERVER computer Public IP address. If you only use one Public IP address, go to Google and search "what's my ip". Your Public IP address will be displayed. Take note of this address as it will be needed in the configuration files
    * If you're using a VPN or VPS for the SNODE SERVER computer, you need to retrieve that Public IP address.
