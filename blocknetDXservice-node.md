@@ -32,7 +32,7 @@ L'integrazione avviene tramite le API RPC del wallet. Per ragioni di sicurezza r
 
 * L'indirizzo pubblico IP del tuo computer SNODE SERVER. O l'indirizzo IP pubblico se stai usando una VPS/VPN per il computer SNODE SERVER.
 
-* 5000 Block bloccato all'indirizzo del nodo di servizio sul computer CLIENT (il 5000 Block non puó fare stake finché bloccato)
+* 5000 Block bloccato all'indirizzo del nodo di servizio sul computer CLIENT (i 5000 Block non possono essere soggetti a stake finché rimangono bloccati)
 
 * L'ultima versione del wallet di ogni criptovaluta che vuoi supportare sul tuo nodo di servizio (completamente sincronizzato, criptato)
 
@@ -49,13 +49,13 @@ L'integrazione avviene tramite le API RPC del wallet. Per ragioni di sicurezza r
    
 ### Impostazione Del Wallet Del Computer Client   
    
-* Navigate the top toolbar to: `Tools > Debug console`
-   * Type `getaccountaddress <name>` (This generates a public address key for your service node. Create a unique service node name.)
-      * Ex: `getaccountaddress snode01`
+* Navigare dalla barra degli strumenti a: `Tools > Debug console`
+   * Scrivi `getaccountaddress <name>` (Questo genera una chiave a indirizzo pubblico per il tuo nodo di servizio. Crea un unico nome per il nodo di servizio.)
+      * Es: `getaccountaddress snode01`
       
-   * Type `servicenode genkey` (This generates and outputs your service node private key)
+   * Scrivi `servicenode genkey` (Ció genera e produce la chiave privata del tuo nodo di servizio)
    
-   * Take note of these generated outputs as they will be needed in the configuration files
+   * Prendi nota di questi prodotti generati siccome saranno necessari nei files di configurazione
    
 * Whichever wallet your funds are located in send exactly 5000 Block (tBlock if on testnet) to the public address you created on the previous step
    * The address needs to have EXACTLY 5000 Block (or tBLock) to work properly
