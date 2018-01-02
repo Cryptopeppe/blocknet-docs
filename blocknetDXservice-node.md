@@ -260,7 +260,7 @@ La tecnologia Xbridge di Blocknet é integrata nell'ultima versione del client. 
 
  * Se vuoi sempre avviarlo in modalitá exchange, doppio clic sull'icona desktop/cartella del tuo nodo blocknetdx-qt. Poi scegli proprietá. Cambia "...blocknetdx-qt.exe" a "...blocknetdx-qt.exe -enableexchange". Salva. Adesso inizierá sempre con questi attributi.
  
-     * Qaudno clicchi la finesta "BlocknetDX" sul wallet dovrebbe dire "Exchange node".
+     * Quadno clicchi la finesta "BlocknetDX" sul wallet dovrebbe dire "Exchange node".
      * Nella console scrivi: `dxGetCurrencyList` per mostrare la lista di wallets aperti su xbridge
      * Nella console scrivi: `servicenode list`, cerca il tuo SNODE, sotto `xwallets` mostra i wallets che stai ospitando
        
@@ -268,27 +268,27 @@ La tecnologia Xbridge di Blocknet é integrata nell'ultima versione del client. 
   
 ---
 
-## Verify communication between wallets.
-In order to ensure that the xbridge client is communicating with your wallets and the .conf files are setup properly, navigate to the Blocknet data dir: C:\Users\yourusername\AppData\Roaming\blocknetdx\
+## Verifica La Comunicazione Tra Wallets.
+Al fine di assicurarti che il client xbridge stia comunicando con i tuoi wallets e i files .conf siano configurati correttamente, naviga fino al Blocknet data dir: C:\Users\yourusername\AppData\Roaming\blocknetdx\
 
-   * Open the "log" folder. Open up the log file with the current date/time. Ex: `xbridgep2p_20170831T181856.log`
-   * Each log file will update until the client instance is close. If a new client instance is opened a new log file will be created.
-
-As the wallet starts up, you’ll see the DX initialise using the values you entered into your `xbridge.conf` file:
+   * Apri la cartella "log". Apri il file log con la corrente data/tempo. Es: `xbridgep2p_20170831T181856.log`
+   * Ogni file log verrá aggiornato finché l'istanza del client non viene chiusa. Se una nuova istanza del client viene aperta allora verrá creato un nuovo file log.
+   
+All'avvio del wallet, vedrai il DX usando i valori che hai inserito nel file `xbridge.conf`:
 
 ![alt text](https://github.com/BlocknetDX/blocknet-docs/blob/master/pictures/dxstart.PNG "Logo Title Text 1") 
 
- * Wait until you see “HTTP: resp 200” messages. This signifies that the wallets are communicating over RPC and setup has been successful. Ensure each wallet you are running displays a “HTTP: resp 200” and displays your labelled receive address name.
+ * Aspetta fino a vedere il messaggio “HTTP: resp 200”. Ció significa che il wallets stanno comunicando tramite RPC e la configurazione é avvenuta con successo. Assicurati che ogni wallet che stai eseguendo mostri “HTTP: resp 200” e mostri anche il tuo indirizzo etichettato.
  
  ![alt text](https://github.com/BlocknetDX/blocknet-docs/blob/master/pictures/resp_200.PNG "Logo Title Text 1") 
 
- * Note: If, amidst the “HTTP: resp 200” messages, you see a message similar to `[I] 2017-Apr-19 17:48:31 [0x2],listaccounts exception couldn't connect to server`, then it is likely that at least one of your specified trading wallets have not been run.
+ * Nota: Se, in mezzo al messaggio “HTTP: resp 200”, vedi un messaggio simile a `[I] 2017-Apr-19 17:48:31 [0x2],listaccounts exception couldn't connect to server`, significa che almeno uno dei tuoi wallets di trading specifici non sta funzionando correttamente.
 
- * Note: If you fail to get “HTTP: resp 200” messages, it’s possible that the ports assigned to wallets differ from those specified in your .conf file. To check this, open Command Prompt, type `netstat -an`, and take a look which ports are being used over localhost (127.0.0.1), or sometimes over 0.0.0.0.
+ * Nota: Se fallisci nell'ottenere il messaggio “HTTP: resp 200” messages, é possibile che le porte assegnate ai wallets differiscano da quelle specificate nel file .conf. Per controllarlo, apri il Prompt dei Comandi, scrivi `netstat -an`, e dai un'occhiata a quale porta viene usata per il localhost (127.0.0.1), o a volte sopra 0.0.0.0.
  
 ---
 
-## Problem Diagnosis
+## Diagnosi Dei Problemi
 * To verify that each wallet is communicating with xbridge make sure the created receive addresses for each wallet is listed in the address book. If this part fails, close your wallets and review their configuration files.
 
 * If you made changes to any .conf file you need to close and restart that wallet, including Blocknet 
