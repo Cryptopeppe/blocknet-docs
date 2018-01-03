@@ -10,7 +10,7 @@ Internet delle Blockchains
 * Il DX di Blocknet utilizza la tecnologia router blockchain xbridgep2p™ per permettere agli utenti di scambiare tokens e assets, e di utilizzare gli smart contracts tra blockchains.
 
 ## Panoramica
-Il setup richiede un'integrazione tra il wallet Blocknet e i wallet delle moente con le quali vuoi fare trading. A questo punto, niente é automatizzato e l'UI sul nuovo wallet di Blocknet sará usata finché l'UI finale non é completa. La configurazione va effettuata manualmente creando (o modificando) i files .conf:
+La configurazione richiede un'integrazione tra il wallet Blocknet e i wallet delle monete con le quali vuoi fare trading. A questo punto, niente é automatizzato e l'UI sul nuovo wallet di Blocknet sará usata finché l'UI finale non é completa. La configurazione va effettuata manualmente creando (o modificando) i files .conf:
 
  * xbridge.conf
 
@@ -149,44 +149,44 @@ All'avvio del wallet, vedrai il DX inizializzarsi usando i valori che hai inseri
 
 --- 
  
-## Place an Order
-Once you’ve confirmed that the wallets are communicating and setup has been successful, do the following:
+## Piazza un Ordine
+Una volta che hai confermato che i wallets stanno comunicando e la configurazione é avvenuta con successo, prosegui come segue:
 
-* In the “BlocknetDX” tab of the Blocknet wallet, click on the “New Transaction” button. A new window will open:
+* nell'icona “BlocknetDX” del wallet Blocknet, clicca sul bottone “New Transaction”. Si aprirá una nuova finestra:
    
 ![alt text](https://github.com/BlocknetDX/blocknet-docs/blob/master/pictures/newTX.PNG "Logo Title Text 1")   
 
-* Click on the “Address book” icon. This opens up a new window that displays the addresses you created in each currency pair wallet.
+* Clicca sull'icona “Address book”. Ció aprirá una nuova finestra che visualizza l'indirizzo che hai creato in ongi wallet coppia di criptovaluta.
    
    ![alt text](https://github.com/BlocknetDX/blocknet-docs/blob/master/pictures/address_book.PNG "Logo Title Text 1")   
 
-  * Notes: 
+  * Note: 
   
-    * If you do not see these addresses, it means that your wallets are not communicating over RPC
+    * Se non vedi questi indirizzi, significa che il tuo wallet non sta comunicando tramite RPC
     
-    * It may take up to about 30 seconds for xbridge to connect with your wallets, but once startup has completed it will populate your currency pair addresses
+    * Potrebbero volerci 30 secondi per connettere xbridge con i tuoi wallets, ma una volta che l'avvio é stato completato verranno mostrate le tue coppie di criptovalute
 
-    * Do not manually paste an address into the “from” and “to” fields. Select addresses that xbridge has been given by your currency pair wallets.
+    * Non incollare manualmente un indirizzo nei campi “from” e “to”. Seleziona gli indirizzi che ti sono stati dati da xbridge dalle tue coppie di criptovalute.
       
-* On the "from" and "to" sides, click the "Address Book" and double-click the currency's you want to trade
+* Sui lati "from" e "to", clicca su "Address Book" e fai doppio clic sulla criptomoneta con la quale vuoi fare trading 
     
-* Your address and account balance will populate for each currency
+* Il tuo indirizzo e il saldo del tuo account verrá riempito di ogni criptomoneta
    
 ![alt text](https://github.com/BlocknetDX/blocknet-docs/blob/master/pictures/btc_dyn_newtx.PNG "Logo Title Text 1")
     
-   * In this example we are trading Bitcoin for Dynamic
+   * In questo esempio stiamo facendo trading di Bitcoin per Dynamic
    
-* Choose the amount you wish to trade for and click "New Transaction"
+* Scegli la quantitá che vuoi commerciare e clicca "New Transaction"
    
-* The new TX will then be posted to the Blocknet DX for someone to accept.
+* Il nuovo TX verrá pubblicato sul DX di Blocknet per qualcuno che voglia accettare.
    
-![alt text](https://github.com/BlocknetDX/blocknet-docs/blob/master/pictures/btc_dyn_posted.PNG "Logo Title Text 1")
+![alt text](https://github.com/BlocoknetDX/blocknet-docs/blob/master/pictures/btc_dyn_posted.PNG "Logo Title Text 1")
     
-   * In this example TX we are trading 0.0006 BTC for 1 DYN
+   * In questo esempio TX stiamo scambiando 0.0006 BTC per 1 DYN
    
-* To accept a trade, side click the posted TX and click accept
+* Per accettare lo scambio, clicca lateralmente i TX pubblicati e poi clicca accetta
 
-* To cancel your TX post, side click your TX and click cancel
+* per cancellare la tua pubblicazione TX, clic laterale sul tuo TX e poi clicca cancella
 
 ---
 
