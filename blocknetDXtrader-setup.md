@@ -79,7 +79,7 @@ Il wallet di ogni moneta con la quale vuoi fare trading deve essere configurato 
  
 ---
 
-## Configurare gli Indirizzo delle Monete
+## Configurare gli Indirizzi delle Monete
 In ogni wallet, crea un nuovo indirizzo ed etichettalo in modo informativo, come "indirizzo DX" (xbridge si aspetta un indirizzo in ricezione etichettato)
  
  * Per creare un nuovo indirizzo, vai all'icona del wallet "receive" e clicca "new address" 
@@ -94,13 +94,13 @@ In ogni wallet, crea un nuovo indirizzo ed etichettalo in modo informativo, come
  
 ---
 
-## Setup xbridge.conf
+## Configurare xbridge.conf
 
-The Blocknet’s Xbridge technology is integrated into the latest client release. See [GitHub](https://github.com/BlocknetDX/BlockDX) for the source code.
-
- * To see the full list of coin .conf's see: [xbridge.conf](https://github.com/BlocknetDX/blocknet-docs/blob/master/xbridgeCONF.md)
-
- * Create/edit an `xbridge.conf` file and place the following configuration file in the blocknet wallet data directory (for Windows) C:\Users\[yourusername]\AppData\Roaming\blocknetdx\
+La tecnologia Xbridge di Blocknet é integrata nell'ultima versione del client. vedi [GitHub](https://github.com/BlocknetDX/BlockDX) per il codice sorgente
+ 
+ * Per vedere la lista completa delle monete .conf vedi: [xbridge.conf](https://github.com/BlocknetDX/blocknet-docs/blob/master/xbridgeCONF.md)
+ 
+ * Creare/Modificare file `xbridge.conf` e collocare la seguente configurazione nel wallet Blocknet nella directory data (per Windows) C:\Users\[yourusername]\AppData\Roaming\blocknetdx\
 
  * Note: to avoid crashes or failed trades, please edit your `xbridge.conf` to feature only and all the coins you wish to trade with
 
