@@ -172,26 +172,26 @@ Quanto segue é una lista di monete testate e confermate di essere supportate. O
 
 #### In Arrivo
 
-__Nota:__ upcoming milestones are subject to change, and some require new ground be broken in crypto, and thus are to be interpreted as intents, not commitments. Development is in an agile manner and so is not to deadlines; Rather, continual progress is to be expected.
+__Nota:__ le imminenti milestones sono soggette a cambi, e alcune richiedono dei passi avanti nelle crypto, quindi vanno interpretate come intento, non impegni. Lo sviluppo non é una cosa facile fatta solo di scadenze; Invece, ci aspettiamo progressi continui.
        
-* Decentralized exchange app ("UI")
-* UI TradingView integration (Core Team)
-* Design specification document ("white paper")
-* New Blocknet website
-* New DX website
-* Analytics site (think bfxdata.com, but for a DX)
-* Bot “skeleton” in Python for easy DX bot building (infinity7592)
-* 0x integration (addition of Ethereum and all ERC20 tokens to the DX)
-* Ethfinex integration (Bitfinex’s order book on the DX)
-* Decentralized exchange SPV multiwallet (no full blockchains)
-* Chain relay: trust-minimised data verification
-* DX order book enhancements (Core Team)
-* Mobile Blocknet wallet app
-* Mobile decentralized exchange app
-* "Offline orders" feature (orders stay live after wallet is closed)
-* Decentralized leveraged trading (p2p loan swaps locked to longs/shorts)
-* Decentralized ICO dapp
-* Browser-based exchange
-* Modularisation of core components (network overlay, blockchain router and data transport)
-* Abstraction of core services into dedicated APIs (service lookup, inter-chain messaging, and decentralized exchange) 
-* Service delivery: Proof-of-Legitimacy (trustless exchange of non-currency)
+* App exchange decentralizzato ("UI")
+* Integrazione UI TradingView (Team Principale)
+* Documento di specifiche di progettazione ("white paper")
+* Nuovo sito web di Blocknet
+* Nuovo sito web di DX 
+* Sito Analytics (pensa bfxdata.com, ma per un DX)
+* Bot “scheletro” in Python per una facile costruzione di bot in DX(infinity7592)
+* Integrazione 0x (aggiunta di Ethereum e tutti i tokens ERC20 al DX)
+* Integrazione Ethfinex (Libro degli ordini di Bitfinex in DX)
+* Exchange decentralizzato SPV multiwallet (no blockchains complete)
+* Chain relay: Verifica dei dati minimizzata
+* Miglioramenti libro ordini DX (Team principale)
+* App mobile per il wallet blocknet
+* App mobile exchange decentralizzato
+* Funzionalitá "Ordini offline" (Gli ordini rimangono online dopo la chiusura del wallet)
+* Trading con leva decentralizzato (scambi prestiti p2p bloccati a termine lungo/corto)
+* ICO dapp decentralizzata
+* Exchange basato sul browser
+* Modularizzazione di componenti principali (copertura di rete, router blockchain e trasporto dati)
+* Astrazione dei servizi principali in API dedicate (servizio di ricerca, messaggistica inter-chain, e exchange decentralizzato) 
+* Erogazione dei servizi: Proof-of-Legitimacy (exchange senza fiducia per le non monete)
