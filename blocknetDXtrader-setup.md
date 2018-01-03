@@ -19,37 +19,38 @@ Il setup richiede un'integrazione tra il wallet Blocknet e i wallet delle moente
 L'integrazione avviene attraverso le API del wallet RPC. Per ragioni di sicurezza raccomandiamo di eseguire tutti i wallet in un singolo box e comunicare sul localhost (127.0.0.1), sebbene i wallet possono essere anche eseguiti su differenti macchine ed essere connessi tramite indirizzo IP. La documentazione generale sulle funzionalitá JSON RPC é disponibile a https://en.bitcoin.it/wiki/Running_Bitcoin.
 
 
-## Blocknet DX Exchange Tutorial Video
+## Video Tutorial Blocknet DX Exchange
  * [DX Exchange Tutorial](https://www.youtube.com/watch?v=DlYbDzG_l5w)
 
 
-## Requirements
+## Requisiti
 
-* Latest Blocknet client installed, encrypted, fully synced. [GitHub Releases](https://github.com/BlocknetDX/BlockDX/releases)
+* Versione piú recente del client installata, criptata, completamente sincronizzata. [GitHub Releases](https://github.com/BlocknetDX/BlockDX/releases)
 
-* Latest wallet of each currency you want to trade with (fully synced, encrypted)
+* Versione piú recente del wallet di ogni cryptovaluta con la quale vuoi fare trading (completamente sincronizzato, criptato)
 
-     * Currency you want to trade with needs to be sent to a labelled receive address on each wallet 
+     * Le cryptovalute con quali vuoi fare trading devono essere inviate a ogni indirizzo specifico etichettato 
 
-* Properly configured .conf files for each wallet
+* Aver configurato adeguatamente ogni files .conf per ogni wallet
 
 ---
 
-## Setup  .conf Files for the Trading Wallets
-The wallet of each coin you want to trade with needs to be configured with a username/password and an allow from IP, if you’re using only a local machine use IP:127.0.0.1
+## Configurazione Files .conf Files Per i Wallets di Trading
+Il wallet di ogni moneta con la quale vuoi fare trading deve essere configurato con un usarname/password e un permesso dall'IP, se stai usando soltanto una macchina locale usa l'IP:127.0.0.1
 
- * To see the full list of compatible wallet configurations go to: [Wallet Configurations](https://github.com/BlocknetDX/blocknet-docs/blob/master/walletsCONF.md)
+ * Per vedere la lista completa di tutte le configurazioni compatibili con il wallet vai a: [Configurazioni Wallet](https://github.com/BlocknetDX/blocknet-docs/blob/master/walletsCONF.md)
 
- * Download the latest wallet, let it sync up fully, then close the wallet
+ * Scarica l'ultima versione del wallet, lascialo sincronizzare completamente, poi chiudi il wallet
 
- * Click the START button on your desktop, where it says “Search program and files” then type “%appdata%” and the “Roaming” directory should pop up. Click on “Roaming” or hit enter
+ * Clicca il bottone START sul tuo desktop, dove dice "Ricerca programmi e files" scrivi “%appdata%” e la directory roaming dovrebbe saltar fuori. Clicca su "Roaming o clicca invio
+ 
+ * Trova la cartella del tuo wallet nella directory data, es: Bitcoin
+ 
+ * Se non hai un file .conf avviato devi aprire Notepad e crearne uno.
 
- * Find your wallet’s designated data directory folder, ex: Bitcoin
-
- * If you don’t have a .conf file started you will need to open up Notepad to create one.
-
- * Navigate to [Wallet Configurations](https://github.com/BlocknetDX/blocknet-docs/blob/master/walletsCONF.md) and copy/paste the configuration information for the wallet you are running. (this can be added to what is already present in file if you have “addnodes” or other configurations already):
-   * Ex: bitcoin.conf
+ * Naviga a [Configurazioni Wallet](https://github.com/BlocknetDX/blocknet-docs/blob/master/walletsCONF.md) e copia/incolla le informazioni di configurazione per il wallet che stai eseguendo. (Ció puó essere aggiunto a quanto giá presente nel file che hai "addnodes" o un'altra configurazione:
+ 
+   * Es: bitcoin.conf
    
    ```
    server=1
@@ -59,22 +60,22 @@ The wallet of each coin you want to trade with needs to be configured with a use
    rpcallowip=127.0.0.1
    ```
    
-   * Ensure the configuration is correct. Do not assume the configurations are the same for each wallet.
+   * Assicurati che la configurazione sia corretta. Non aspettarti che le configurazioni siano le stesse per ogni wallet.
 
- * Change `rpcuser` and `rpcpassword` to something unique to you. For security reasons you should have a different RPC username and password for each wallet
+ * Cambia `rpcuser` e `rpcpassword` in qualcosa di unico per te. Per ragioni di sicurezza dovresti avere un username RPC username e password differenti per ogni wallet
 
- * If you’re using a single machine use IP: `127.0.0.1`
+ * Se stai usando una singola macchina usa l'IP: `127.0.0.1`
 
- * When you are done, click File, Save as, Type in: `bitcoin.conf`
-    * Ensure the file is not `bitcoin.conf.txt`
+ * Quando hai finito, clicca File, Salva come, Scrivi: `bitcoin.conf`
+    * Assicurati che il file non sia `bitcoin.conf.txt`
 
- * Save it and then place the .conf into its corresponding wallet folder
-    * For this example: %Appdata%/Roaming/Bitcoin 
+ * Salvalo e poi colloca il file .conf nella cartella del wallet corrispondente
+    * Per questo esempio: %Appdata%/Roaming/Bitcoin 
 
- * Remember what you wrote for the username, password, and IP
+ * Ricorda cosa hai scritto per username, password, e IP
 
- * Create .conf files for each wallet you are going to be using on the decentralised exchange.
-    * Ensure `rpcuser` and `rpcpassword` are different on each wallet for security purposes
+ * Creare i files .conf per ogni wallet che utilizzerai sull'exchange decentralizzato.
+    * Assicurati che `rpcuser` e `rpcpassword` siano differenti in ongi wallet per ragioni di sicurezza
  
 ---
 
