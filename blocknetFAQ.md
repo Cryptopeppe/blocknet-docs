@@ -60,16 +60,14 @@ Blocknet le decentralizza nel seguente modo:
 
 * Gli ordini vengono abbinati direttamente tra traders. Quando uno accetta l'ordine di un altro, le loro app comunicano per far avvenire il processo di scambio delle loro monete, e ció viene trasmesso sulla rete inter-chain.
 
-* The exchange of tokens is achieved without the involvement of an intermediary, in a manner that does not require counterparties to trust one another beforehand. An atomic protocol is utilised (meaning that either the exchange of both currencies takes place, or nothing takes place), which employs  OP_CHECKLOCKTIMEVERIFY to nullify transaction malleability-based attacks. More details on the protocol are available here: http://kaykurokawa.blogspot.co.za/2015/10/atomic-cross-chain-transfer-overview.html
+* Lo scambio di tokens viene realizzato senza il coinvolgimento di un intermediario, in una maniera che non richiede alle controparti di fidarsi l'una con l'altra in anticipo. Viene utilizzato un protocollo Atomic (singifica che o avviene lo scambio di entrambe le monete, o non viene scambiato nulla), il quale impiega  OP_CHECKLOCKTIMEVERIFY per annullare gli attacchi basati su transazioni malleabili. Maggiori dettagli sul protocollo sono disponibili qui: http://kaykurokawa.blogspot.co.za/2015/10/atomic-cross-chain-transfer-overview.html
 
+### Perché un exchange decentralizzato é un elemento chiave dell'ecosistema token?
+Gli exchange decentralizzati rendono i servizi blockchain intrinsecamente monetizzabili, rimuovendo le frizioni e gli alti costi delle reti di pagamento tradizionali che hanno prevenuto la monetizzazione dell'ecosistema API.
 
-### Why Is a Decentralized Exchange a Key Enabler Of the Token Ecosystem?
-Decentralized exchange makes blockchain services intrinsically monetizable, removing the friction and high costs of traditional payment networks that have prevented the monetisation of the bulk of the API ecosystem.
+Grazie agli exchange decentralizzati, i consumatori di un servizio possono pagare con i loro token nativi anche se il servizio consuma un token differente. In un mondo in cui (a) sono presenti centinaia di blockchains, e (b) le blockchains sono sovraccaricate inesorabilmente, é consigliabile di supportare troppi servizi sulla stessa blockchain, monetizzare i servizi inter-chain é sia un'operazione necessaria e sia un servizio che aiuta l'ecosistema in generale.
 
-Due to the decentralized exchange, consumers of a service may pay in their native token even if the service consumes a different token. In a world in which (a) there are already thousands of blockchains, and (b) blockchains bloat inexorably, and so it is advisable not to support many services per blockchain, monetising inter-chain services is both an operational necessity and an ecosystem-enabling service.
-
-
-### What Coins Does the Decentralized Exchange Support?
+### quali monete l'exchange decentralizzato supporta?
 The Blocknet was designed to maximise interoperability, and so most blockchain tokens may be integrated with no coding required.
 
 The current integration requirements are:
