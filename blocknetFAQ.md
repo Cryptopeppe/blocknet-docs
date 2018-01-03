@@ -54,9 +54,9 @@ Perció, al fine di essere un exchange decentralizzato, ogniuna di queste funzio
 
 Blocknet le decentralizza nel seguente modo:
 
-* Traders’ capital remains in their wallets, and is not entrusted to a third party at any stage.
+* Il capitale dei traders rimane nel loro wallet, e non viene affidata ad alcuna terza parte in nessuna fase.
 
-* Orders are broadcast directly from trader to trader over an inter-blockchain DHT network overlay. Traders’ apps compile an order book themselves instead of relying on a central order book service.
+* Gli ordini vengono trasmessi direttamente da trader a trader su un overlay di rete inter-blockchain DHT. Le app dei traders compilano il libro ordini da sole invece di far affidamente su un libro ordini centralizzato.
 
 * Orders are matched directly between traders. When one accepts another’s order, their apps communicate to set up the coin exchange process, and this is broadcast over the inter-chain network.
 
