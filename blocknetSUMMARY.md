@@ -6,7 +6,7 @@ Internet Delle Blockchains
 
 
 ## Hotlinks
-  * [Home Website](http://blocknet.co/)
+  * [Home Sito Web](http://blocknet.co/)
   * [Explorer](https://chainz.cryptoid.info/block/)
   * [Bitcointalk](https://bitcointalk.org/index.php?topic=829576.0)
   * [RocketChat](https://rocket.blocknet.co:8443)
@@ -76,105 +76,103 @@ creando un "internet delle blockchains", Blocknet é posizionato per permettere 
 
 * L'abilitá di creare daaps con una architettura multi-chain, sfruttando i servizi competenti indipendentemente dalla chain sulla quale sono disponibili, rendendo senza senso (correntemente difficile) la scelta di una specifica blockchain.
 
- * La capacitá 
+ * La capacitá di un'architettura di microservizi, dove ogni blockchain fornisce un singolo servizio, integrata con molte altre in maniera modulare, fornire una progettazione dei componenti piú semplice, una piú facile risoluzione dei bug, e un aggiornamento piú semplice.
 
- * The capacity for a microservices architecture, where each blockchain delivers a single service, integrated with many others in a modular fashion, providing simpler component design, easier bug-fixing, and easier upgrading. 
+ * La monetizzazione dei servizi inter-chain e multi-chain, usando il valore intrinseco dei propri tokens.
+ 
+ *  Il completo sfruttamento di un nuovo, criptoeconomicamente guidato modella di business inagurato dalla tecnologia blockchain, nel quale un business puó estrarre valore da un modello "meglio che gratis", dalla politica monetaria (ICO, commissioni sulle transazioni, economia deflazionistica), e da un marketplace per le sue API monetizzate.
 
- * The monetisation of inter-chain and multi-chain services, using their intrinsic tokens of value. 
+## Come Funziona
+In breve, Blocknet fornisce tre servizi principali per l'interoperabilitá inter-chain: ricerca del servizio, messagistica inter-chain e exchange decentralizzato. Questi vengono correntemente implementati in una app monolitica, xbridgep2p.exe. É stata pianificata una modularizzazione dei componenti, e l'astrazione dei servizi in API façade(s).
 
- * The full exploitation of the new, cryptoeconomically-driven business models ushered in by blockchain technology, in which a business may extract value from a “better than free” model, from monetary policy directly (ICOs, transaction fees, deflationary economics, etc), and from a marketplace for its monetized APIs. 
+## Monete Supportate
+Ogni moneta che supporta OP_CHECKLOCKTIMEVERIFY e ha un'interfaccia stock JSON RPC clonata da Bitcoin Core sará compatibile con Blocknet.
 
-## How It Works
-In brief, the Blocknet supplies three core services for inter-chain interoperability: service lookup, inter-chain messaging, and decentralized exchange. These are currently implemented in a monolithic app, xbridgep2p.exe, and modularisation of components, and abstraction of services into API façade(s) are planned.
-
-## Supported Coins
-Any coin that supports OP_CHECKLOCKTIMEVERIFY and has a stock JSON RPC interface cloned from Bitcoin Core will be Blocknet compatible.
-
-The following is a list of coins which have been tested and are confirmed to be supported. Any two coins from this list are a valid coin pair and can be traded directly. 
+Quanto segue é una lista di monete testate e confermate di essere supportate. Ogni coppia di monete creata dalla lista rappresenta un valido accoppiamento che puó essere tradato direttamente.
 
  Bitcoin (BTC) | Blocknet (BLOCK) | Dash (DASH) | DigiByte (DGB) | Dogecoin (DOGE) | Dynamic (DYN) | Faircoin (FAIR) | LBRY Credits (LBC) | Litecoin (LTC) | Monacoin (MONA) | MonetaryUnit (MUE) | Namecoin (NMC) | PIVX (PIVX) | Qtum (QTUM) | SysCoin (SYS) | Vertcoin (VTC) | Viacoin (VIA)
 
-## Videos
+## Video
 
-### Blocknet DX Exchange Tutorial (MONA/LTC Trade)
+### Tutorial Blocknet DX Exchange (MONA/LTC Trade)
  * [DX Exchange Tutorial](https://www.youtube.com/watch?v=DlYbDzG_l5w)
 
-### Recordings of Live Decentralized Trades Across Blockchains on Blocknet DX
+### Registrazioni dal Vivo di Scambi tra Blockchains sul DX di Blocknet 
 
-#### DASH Pairs: [DASH for LTC](https://www.youtube.com/watch?v=aG4z-oZ1-zc) | [DASH for DYN](https://www.youtube.com/watch?v=1U6K1S1Za_Y)
+#### Coppie DASH: [DASH for LTC](https://www.youtube.com/watch?v=aG4z-oZ1-zc) | [DASH per DYN](https://www.youtube.com/watch?v=1U6K1S1Za_Y)
 
-#### DYN Pairs: [LTC for DYN](https://www.youtube.com/watch?v=_0lsdyNM_e8) | [DASH for DYN](https://www.youtube.com/watch?v=1U6K1S1Za_Y)
+#### Coppie DYN: [LTC for DYN](https://www.youtube.com/watch?v=_0lsdyNM_e8) | [DASH per DYN](https://www.youtube.com/watch?v=1U6K1S1Za_Y)
 
-#### FAIR Pairs: [FAIR for MUE](https://www.youtube.com/watch?v=aYpYwofhqOI)
+#### Coppie FAIR: [FAIR for MUE](https://www.youtube.com/watch?v=aYpYwofhqOI)
 
-#### LTC Pairs: [LTC for DYN](https://www.youtube.com/watch?v=_0lsdyNM_e8) | [DASH for LTC](https://www.youtube.com/watch?v=aG4z-oZ1-zc)
+#### Coppie LTC: [LTC for DYN](https://www.youtube.com/watch?v=_0lsdyNM_e8) | [DASH per LTC](https://www.youtube.com/watch?v=aG4z-oZ1-zc)
 
-#### MUE Pairs: [MUE for DGB](https://www.youtube.com/watch?v=RMU4WyPTV4w)
+#### Coppie MUE: [MUE for DGB](https://www.youtube.com/watch?v=RMU4WyPTV4w)
  
-#### NMC Pairs: [NMC for DOGE](https://www.youtube.com/watch?v=FGuLQNqcW9A)
+#### Coppie NMC: [NMC for DOGE](https://www.youtube.com/watch?v=FGuLQNqcW9A)
  
-#### PIVX Pairs: [PIVX for DGB](https://www.youtube.com/watch?v=NQS6WU1CtFQ)
+#### Coppie PIVX: [PIVX for DGB](https://www.youtube.com/watch?v=NQS6WU1CtFQ)
  
-#### QTUM Pairs: [QTUM for DGB](https://www.youtube.com/watch?v=btV4TMFnsCA)
+#### Coppie QTUM: [QTUM for DGB](https://www.youtube.com/watch?v=btV4TMFnsCA)
 
-#### SYS Pairs: [DASH for SYS](https://www.youtube.com/watch?v=d2yJTWvXHbA) | [LTC for SYS](https://www.youtube.com/watch?v=n5cOS2evpFg)
+#### Coppie SYS: [DASH for SYS](https://www.youtube.com/watch?v=d2yJTWvXHbA) | [LTC per SYS](https://www.youtube.com/watch?v=n5cOS2evpFg)
  
-#### VIA Pairs: [VIA for LTC](https://www.youtube.com/watch?v=grTea1VFg-o)
+#### Coppie VIA: [VIA for LTC](https://www.youtube.com/watch?v=grTea1VFg-o)
 
 #### VTC Pairs: [VTC for SYS](https://www.youtube.com/watch?v=moy0-tfIpTI)
 
 
-## Tools & Stats
-* [Blocknet ROI Analysis](http://bit.ly/block-roi) - Thanks @stormingj !
+## Strumenti & Statistiche
+* [Analisi del ROI Blocknet](http://bit.ly/block-roi) - Thanks @stormingj !
 
-* [Blocknet Toolkit](https://block-node.info/index.php) - Thanks @ishkb1 !
+* [kit di Strumenti Blocknet](https://block-node.info/index.php) - Thanks @ishkb1 !
 
-* [Servicenode Stats](https://masternodes.online/currencies/BLOCK/)
+* [Statistiche Servicenode](https://masternodes.online/currencies/BLOCK/)
 
 * [Coin Market Cap](https://coinmarketcap.com/currencies/blocknet/)
 
 
-### Setup Guide's 
+### Guide di Configurazione 
 * [Lastest Builds](https://github.com/BlocknetDX/BlockDX/releases)
 
-* [Linux Installation](https://github.com/atcsecure/blocknet/blob/xbridge-new-2/doc/build-ubuntu-debian-w-xbridge.md)
+* [Installazione Linux](https://github.com/atcsecure/blocknet/blob/xbridge-new-2/doc/build-ubuntu-debian-w-xbridge.md)
 
-* [Blocknet DX Trader Setup](https://github.com/BlocknetDX/blocknet-docs/blob/master/blocknetDXtrader-setup.md)
+* [Configurazione Blocknet DX Trader](https://github.com/BlocknetDX/blocknet-docs/blob/master/blocknetDXtrader-setup.md)
 
-* [Blocknet Service Node Setup](https://github.com/BlocknetDX/blocknet-docs/blob/master/blocknetDXservice-node.md)
+* [Configurazione Blocknet Nodo di Servizio](https://github.com/BlocknetDX/blocknet-docs/blob/master/blocknetDXservice-node.md)
 
-* [Blocknet Staking Setup](https://github.com/BlocknetDX/blocknet-docs/blob/master/blocknet-staking-guide.md)
+* [Configurazione Blocknet Staking](https://github.com/BlocknetDX/blocknet-docs/blob/master/blocknet-staking-guide.md)
 
-## Translations
+## Traduzioni 
 
 * [中文文件](https://github.com/BlocknetDX/blocknet-docs/tree/master/chinese-docs) | [Deutsche Dokumente](https://github.com/BlocknetDX/blocknet-docs/tree/master/german-docs) | [日本語の文書](https://github.com/BlocknetDX/blocknet-docs/tree/master/japanese-docs) | [한국어 문서](https://github.com/BlocknetDX/blocknet-docs/tree/master/korean-docs) | [Российские документы](https://github.com/BlocknetDX/blocknet-docs/tree/master/russian-docs) | [Español Docs](https://github.com/BlocknetDX/blocknet-docs/tree/master/spanish-docs)
 
-## Roadmap
+## Tabella di Marcia
   
-#### Done
+#### Compiuti
 
 * __Oct Nov 2014:__ ITO ("initial token offering")
-* __Dec 2014:__ first messages sent across blockchains (data transport proof-of-concept)
-* __March 2015:__ partnership with Bitnation forged
-* __March 2015:__ Decentralized exchange UI/UX: business logic and mockups
-* __April 2015:__ Blocknet Think Tank launched; breadth of scope of the Blocknet seen to extend to the entire token ecosystem
-* __May 2015:__ Ethereum collaboration; commitment to integrate ETH
-* __October 2015:__ Decentralized exchange v.1 (proof-of-concept)
-* __December 2015:__ Blockchain router v.1
-* __March 2016:__ Decentralized exchange v.2 (TierNolan's algo, no CLTV)
-* __August 2016:__ Decentralized exchange v.3 (CLTV: nonmalleable design)
-* __Sept 2016:__ Debugging and testing; order book
-* __May 2017:__ Service node design: QoS provider concept
-* __June 2017:__ Decentralized exchange app: specification documentation complete (for UI/UX partner)
-* __July 2017:__ Production blockchain: work commences
-* __September 2017:__ Production blockchain launched
-* __September 2017:__ Service nodes launch on mainnet
-* __October 2017:__ VSA Partners announced as the major design firm that is developing the UI/UX
-* __October 2017:__ Blocknet "Toolkit" website goes live (site that lists supported coins, config files, docs, other data) 
+* __Dec 2014:__ Primo messaggio mandato attraverso Blockchains (trasporto dati proof-of-concept)
+* __March 2015:__ partnership nata con Bitnation 
+* __March 2015:__ Exchange decentralizzato UI/UX: logica aziendale e mockups
+* __April 2015:__ Lancio del Think Tank Blocknet; ampiezza di scopo di Blocknet estesa all'intero ecosistema dei token
+* __May 2015:__ Collaborazione Ethereum; Impegno per l'integrazione di ETH
+* __October 2015:__ Exchange decentralizzato v.1 (proof-of-concept)
+* __December 2015:__ Router Blockchain v.1
+* __March 2016:__ Exchange decentralizzato v.2 (algoritmo TierNolan, no CLTV)
+* __August 2016:__ Exchange decentralizzato v.3 (CLTV: design non modificabile)
+* __Sept 2016:__ Debugging e testing; libro ordini
+* __May 2017:__ Design del nodo di servizio: QoS fornitore del concetto
+* __June 2017:__ APP exchange decentralizzato: specificazioni documentazione completa (per partner UI/UX)
+* __July 2017:__ Produzione della blockchain: inizia il lavoro
+* __September 2017:__ Produzione della blockchain lanciata
+* __September 2017:__ Nodi di servizio lanciati sulla rete principale
+* __October 2017:__ VSA Partners annunciata come principale societá di progettazione nello sviluppo di UI/UX
+* __October 2017:__ Il sito web Blocknet "Toolkit" é online (sito che elenca le monete supportate, configurazione files, documenti, altri dati) 
 
-#### Coming Up
+#### In Arrivo
 
-__Note:__ upcoming milestones are subject to change, and some require new ground be broken in crypto, and thus are to be interpreted as intents, not commitments. Development is in an agile manner and so is not to deadlines; Rather, continual progress is to be expected.
+__Nota:__ upcoming milestones are subject to change, and some require new ground be broken in crypto, and thus are to be interpreted as intents, not commitments. Development is in an agile manner and so is not to deadlines; Rather, continual progress is to be expected.
        
 * Decentralized exchange app ("UI")
 * UI TradingView integration (Core Team)
