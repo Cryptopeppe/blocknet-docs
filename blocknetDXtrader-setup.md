@@ -190,7 +190,7 @@ Una volta che hai confermato che i wallets stanno comunicando e la configurazion
 
 ---
 
-## Problem Diagnosis
+## Diagnosi dei Problemi
 * To verify that each wallet is communicating with xbridge make sure the created receive addresses for each wallet is listed in the address book. If this part fails, close your wallets and review their configuration files.
 
 * Ensure you have sent the funds you wish to trade with to the labelled address. Ensure these are confirmed.
