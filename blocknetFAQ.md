@@ -100,9 +100,8 @@ Usando gli exchange decentralizzati, questi servizi sono intrinsecamente monetiz
 
 Grazie agli exchange decentralizzati, i consumatori di un servizio possono pagara con i loro token nativi anche se il servizio consuma un token differente.
 
-### What Are the Benefits Of Running a Node? How Many Blocks Do I Need To Run One?
-There are two types of node: a "service node" and a “trader node”. Service nodes do not handle or control any trader's coins. Their function is to collect and distribute trade fees. Typically a service node operator will run multiple full node wallets of whichever coins (s)he wants to support, in order to garner as many trade fees as possible. Trader nodes enable one to trade on the decentralized exchange.The amount of BLOCK currently needed to run a service node is 5,000 BLOCK. To use the exchange you will not need any BLOCK.
- 
+### Qauli sono i benefici nell'eseguire un nodo? Quanti BLOCK ho bisogno per farne funzionare uno?
+Ci sono due differenti tipi di nodo: un "nodo di servizio" e un "nodo trader". Il nodo di servizio non gestisce e non controlla alcuna moneta dei traders. La loro funzione é quella di collezionare e distribuire le commissioni ai traders. Tipicamente un operatore di un nodo di servizio eseguirá differenti nodi wallets di qualunque moneta che vuole supportare, al fine di guadagnare piú commissioni da trading possibili. I nodi trader permettono di effettuare scambi sull'exchange decentralizzato. La quantitá di BLOCK correntemente richiesti per eseguire un nodo di servizio é 5,000 BLOCK. Per utilizzare l'exchange non hai bisogno di alcun BLOCK. 
  
 ### Will There Be Fees For Buying/Trading On the Blocknet Exchange?
 Yes, there are fees, though they are significantly lower that centralised exchanges.
