@@ -58,7 +58,7 @@ Blocknet le decentralizza nel seguente modo:
 
 * Gli ordini vengono trasmessi direttamente da trader a trader su un overlay di rete inter-blockchain DHT. Le app dei traders compilano il libro ordini da sole invece di far affidamente su un libro ordini centralizzato.
 
-* Orders are matched directly between traders. When one accepts another’s order, their apps communicate to set up the coin exchange process, and this is broadcast over the inter-chain network.
+* Gli ordini vengono abbinati direttamente tra traders. Quando uno accetta l'ordine di un altro, le loro app comunicano per far avvenire il processo di scambio delle loro monete, e ció viene trasmesso sulla rete inter-chain.
 
 * The exchange of tokens is achieved without the involvement of an intermediary, in a manner that does not require counterparties to trust one another beforehand. An atomic protocol is utilised (meaning that either the exchange of both currencies takes place, or nothing takes place), which employs  OP_CHECKLOCKTIMEVERIFY to nullify transaction malleability-based attacks. More details on the protocol are available here: http://kaykurokawa.blogspot.co.za/2015/10/atomic-cross-chain-transfer-overview.html
 
