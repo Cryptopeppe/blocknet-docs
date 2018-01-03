@@ -7,16 +7,16 @@ Internet delle Blockchains
 
 **Queste istruzioni servono per fare trading sull'exchange decentralizzato di Blocknet** 
 
-* Blocknet’s DX uses the xbridgep2p™ blockchain router technology to enable users to exchange tokens and assets, and to utilise smart contracts between blockchains.
+* Il DX di Blocknet utilizza la tecnologia router blockchain xbridgep2p™ per permettere agli utenti di scambiare tokens e assets, e di utilizzare gli smart contracts tra blockchains.
 
-## Overview
-Setup requires an integration between the Blocknet wallet and the wallets of coins you want to trade with. At this stage, nothing is automated and the UI on the new Blocknet wallet will be used until the final UI is complete. Configuration is by manually creating (or editing) .conf files: 
+## Panoramica
+Il setup richiede un'integrazione tra il wallet Blocknet e i wallet delle moente con le quali vuoi fare trading. A questo punto, niente é automatizzato e l'UI sul nuovo wallet di Blocknet sará usata finché l'UI finale non é completa. La configurazione va effettuata manualmente creando (o modificando) i files .conf:
 
  * xbridge.conf
 
- * configuration file for each currency you want to trade with
+ * Il file di configurazione di ogni moneta con la quale vuoi fare trading
 
-Integration is via the wallets’ RPC APIs. For security reasons we recommend that wallets all run on a single box and communicate over localhost (127.0.0.1), though wallets may also be run on multiple machines and connect via IP address. General documentation on JSON RPC features is available at https://en.bitcoin.it/wiki/Running_Bitcoin.
+L'integrazione avviene attraverso le API del wallet RPC. Per ragioni di sicurezza raccomandiamo di eseguire tutti i wallet in un singolo box e comunicare sul localhost (127.0.0.1), sebbene i wallet possono essere anche eseguiti su differenti macchine ed essere connessi tramite indirizzo IP. La documentazione generale sulle funzionalitá JSON RPC é disponibile a https://en.bitcoin.it/wiki/Running_Bitcoin.
 
 
 ## Blocknet DX Exchange Tutorial Video
