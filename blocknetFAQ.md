@@ -68,24 +68,23 @@ Gli exchange decentralizzati rendono i servizi blockchain intrinsecamente moneti
 Grazie agli exchange decentralizzati, i consumatori di un servizio possono pagare con i loro token nativi anche se il servizio consuma un token differente. In un mondo in cui (a) sono presenti centinaia di blockchains, e (b) le blockchains sono sovraccaricate inesorabilmente, é consigliabile di supportare troppi servizi sulla stessa blockchain, monetizzare i servizi inter-chain é sia un'operazione necessaria e sia un servizio che aiuta l'ecosistema in generale.
 
 ### quali monete l'exchange decentralizzato supporta?
-The Blocknet was designed to maximise interoperability, and so most blockchain tokens may be integrated with no coding required.
+Blocknet é stato progettato per massimizzare l'interoperabilitá, quindi molti tokens possono essere integrati senza la necessitá di codice.
 
-The current integration requirements are:
+I requisiti di integrazione correnti sono:
 
-* Support for OP_CHECKLOCKTIMEVERIFY
+* supporto di OP_CHECKLOCKTIMEVERIFY
 
-* A stock JSON RPC interface from Bitcoin Core
+* Un'interfaccia JSON RPC dal Core di Bitcoin
 
-As a result, the Blocknet supports the majority of cryptocurrencies in existence, and no permission from anyone is required for these to be traded on the exchange.
+Come risultato, Blocknet supporta la maggioranza delle cryptomonete esistenti, e non é richiesto alncun permesso da nessuno per poter scambiate sull'exchange.
 
 
-### How Fast Is the Decentralized Exchange?
-Instant.
+### Quanto é veloce l'exchange decentralizzato?
+Istantaneo.
 
-However, note that once you have completed a trade and received coins, you will be dependent on their blockchain’s accepted confirmation time before your coins will be spendable again.
+Comunque, nota che una volta che hai completato uno scambio e ricevuto le monete, dipenderai dal tempo di conferma impiegato dalla rispettiva blockchain prima che le tue monete siano nuovamente spendibili dinuovo.
 
-*Note: A future enhancement to the decentralized exchange may include a filter on the order book to enable traders to trade coins with less than the number of confirmations conventionally agreed upon as “safe.” This incurs a degree of risk for the benefit of supporting trading styles that require rapidly entering and exiting a position, such as scalping.*
-
+*Nota: Un futuro miglioramento agli exchange decentralizzati potrebbe includere un filtro sul libro degli ordini per permettere ai traders di scambiare monete con un numero inferiore di conferme convenzionalmente accettate come "sicure". Ció comporta un certo grado di rischio a vantaggio del supporto di stili di trading che richiedono di entrare e uscire rapidamente  da una posizione esistente, come lo scalping.*
 
 ### How Private Is the Decentralized Exchanged?
 Because decentralized exchanges do not require traders to submit KYC information or divulge anything else about themselves to a third party, traders enjoy a naturally high degree of privacy.
