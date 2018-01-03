@@ -143,9 +143,9 @@ All'avvio del wallet, vedrai il DX inizializzarsi usando i valori che hai inseri
  
  ![alt text](https://github.com/BlocknetDX/blocknet-docs/blob/master/pictures/resp_200.PNG "Logo Title Text 1") 
 
- * Nota: If, amidst the “HTTP: resp 200” messages, you see a message similar to `[I] 2017-Apr-19 17:48:31 [0x2],listaccounts exception couldn't connect to server`, then it is likely that at least one of your specified trading wallets have not been run.
+ * Nota: Se, in mezzo al messaggio “HTTP: resp 200”, vedi un messaggio simile a `[I] 2017-Apr-19 17:48:31 [0x2],listaccounts exception couldn't connect to server`, allora é probabile che uno dei tuoi wallet non stia funzionando correttamente.
 
- * Note: If you fail to get “HTTP: resp 200” messages, it’s possible that the ports assigned to wallets differ from those specified in your .conf file. To check this, open Command Prompt, type `netstat -an`, and take a look which ports are being used over localhost (127.0.0.1), or sometimes over 0.0.0.0.
+ * Nota: se fallisci nel ricevere il messaggio “HTTP: resp 200”, é possibile che le porte assegnate ai wallets differiscano da quelle nel tuo file .conf. Per controllare, apri il Prompt dei Comandi, digita `netstat -an`, e dai un'occhiata a quali porte sono usate sul localhost (127.0.0.1), o a volte sopra 0.0.0.0.
 
 --- 
  
