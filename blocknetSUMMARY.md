@@ -63,20 +63,20 @@ dal superamento del corresti ecosistema di API con un "ecosistema moneta" intrin
 
 Dalla prospettiva delle tecnologia blockchain, se le blockchain devono raggiungere il loro vero potenziale, allora un'ampia, genericha interoperabilitá tra servizi tecnologici blockchain é necessaria. Senza l'interoperabilitá fra chain, i servizi blockchain (a) fonriranno solo servizi entro i confini limitati della sua base di clienti che gestiscono i suoi nodi, o sacrificare la proprietá unica di sicurezza delle blockchains nella consegna a entitá centralizzate, (b) affrontare problemi duraturi di sovraccarico e, correlativamente, la pressione legata al mercato di costruire future funzionalitá su una singola chain.
 
-Dalla prospettiva del software come servizio (SaaS), l'ecosistema dei token contiene due progressi fondamentali: (a) 
+Dalla prospettiva del software come servizio (SaaS), l'ecosistema dei token contiene due progressi fondamentali: (a) la comparativa monetizzazione dei servizi senza frizioni, e (b) lo sfruttamento delle caratteristiche uniche di robustezza, decentralizzazione, e sicurezza della tecnologia blockchain.
 
-From the perspective of software-as-a-service (SaaS), the token ecosystem embodies two fundamental advancements: (a) the comparatively frictionless monetisation of services, and (b) the leveraging of the unique robustness, decentralization, and security properties of blockchain technology. 
+creando un "internet delle blockchains", Blocknet é posizionato per permettere la monetizzazione delle API senza frizioni, e nel fare ció, potenziare la tecnologia blockchain convertendo le centinaia chains isolate in un ecosistema token.
 
-By creating an “internet of blockchains,” the Blocknet is positioned to enable the frictionless monetisation of APIs, and in doing so, to empower blockchain technology by converting its thousands of isolated chains into a token ecosystem. 
+## Cosa Consente Di Fare Blocknet 
+ * La consegna di ongi tipo di serviziodigitale potenziale da un nodo su ogni blockchain a un'altro.
+ 
+ * L'abilitá di ogni dato servizio blockchain di funzionare non come "appcoin" ma come "servizio di protocollo", cioé, sfruttabile dovunque da qualsiasi altra app, invece che solamente dalla sua community, allargando notevolmente la portata del mercato e il flusso di entrate. 
 
-## What Blocknet Enables 
- * The delivery of potentially any kind of digital service from a node on any blockchain to another. 
+ * L'abilita per gli smart contracts (contratti intelligenti) di funzionare non come "daaps" ma come "token di protocollo", dove   la qulitá del loro codice puó trarre vantaggio dall'intervento di sviluppatori esterni di diverse community, sfruttando le loro conoscienze combinate, prevenendo sovraccarichi nella chain e la duplicazione di codice e lavoro, e fornendo servizi all'intero mercato blockchain, invece del solo set di utenti della sua blockchain.
 
- * The ability for any given blockchain service to function not as an “appcoin” but as a “protocol service,” that is, to be consumable by any other dapp anywhere, instead of only by its community, greatly enlarging the service’s market reach and revenue stream. 
+* L'abilitá di creare daaps con una architettura multi-chain, sfruttando i servizi competenti indipendentemente dalla chain sulla quale sono disponibili, rendendo senza senso (correntemente difficile) la scelta di una specifica blockchain.
 
- * The ability for smart contracts to function not as “dapps” but as “protocol tokens,” where their code quality may benefit from a broad contributor-base of developers from diverse communities, exploit their combined learnings, prevent chain bloat and the duplication of code and labour, and deliver services to the entire blockchain-consuming market, instead of just the set of users of its blockchain. 
-
- * The ability to create dapps with a multi-chain architecture, leveraging relevant services no matter which chain they are available on, rendering nugatory the (currently-difficult) choice of blockchain.
+ * La capacitá 
 
  * The capacity for a microservices architecture, where each blockchain delivers a single service, integrated with many others in a modular fashion, providing simpler component design, easier bug-fixing, and easier upgrading. 
 
