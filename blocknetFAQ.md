@@ -2,60 +2,57 @@
 
 ![alt text](https://github.com/BlocknetDX/blocknet-docs/blob/master/pictures/block.PNG "Logo Title Text 1")
 
-The Internet Of Blockchains
+Internet delle Blockchains
 
 
-## Community-Produced FAQ document
+## Documento FAQ prodotte dalla community
 
 
-### What Is Blocknet?
-The Blocknet is a general-purpose infrastructure for inter-blockchain services. It is designed to enable the emerging “token ecosystem.” The first product build on this infrastructure is a decentralized exchange.
+### Cos'é Blocknet?
+Blocknet é un'infrastruttura a uso generale per servizi inter-blockchain. é progettata per per abilitare gli ecosistemi token emergenti. il primo prodotto costruito su questa infrastruttura é un exchange decentralizzato.
 
+### Che cosa fa?
+Blocknet abilita servizi inter-blockchain, come exchange decentralizzo, monetizzazione sfruttamente API, e consegna di servizi digitali p2p. Queste sono le funzionalitá principali delle daaps inter-chain.
 
-### What Does It  Do?
-The Blocknet enables inter-blockchain services, like decentralized exchange, monetised API consumption, and p2p digital service delivery. These are core enabling features of inter-chain dapps.
+### Come funziona?
+Per supportare servizi inter-blockchain, blocknet ha 3 compenenti principali, i quali lavorano insieme per fornire tre servizi principali.
 
+* I componenti principali sono:
 
-### How Does It Work?
-To support inter-blockchain services, the Blocknet has three core components, which work together to provide three core services.
+  * Un router blockchain, xbridgep2ptm
 
-* The core components are:
+  * Un protocollo per un exchange di monete
 
-  * A blockchain router, xbridgep2ptm
+  * Un sistema di trasporto di dati inter-chain
 
-  * A coin exchange protocol
+* I servizi principali sono:
 
-  * An inter-chain data transport
+  * Exchange decentralizzato per le monete
 
-* The core services are:
+  * Consegna del servizio inter-blockchain
 
-  * Decentralized exchange of coins
-
-  * Inter-blockchain service delivery
-
-  * Service monetisation
+  * Monetizzazione del servizio
   
   
-### What Is a Decentralized Exchange?
-A decentralized exchange is a service enabling counterparties (which may be people or machines) to exchange one currency or token for another, without the involvement of any third party as an intermediary. 
+### Cos'é un exchange decentralizzato?
+un exchange decentralizzato é un servizio che permette alle controparti (che possono essere persone o macchine) di scambiare una valuta o un token per un'altra, senza il coninvolgimento di nessuna terza parte come intermediario.
 
-The term “decentralized” denotes matters of control rather than the distribution of processing; the ideal of a decentralized solution is for the parties to a given interaction to be self-sovereign actors, in the sense that no third party is required to act on their behalf in order for the interaction to take place.
+Il termine "decentralizzato" denota la questione di controllo piú che la distribuzione del processo; L'idea di una soluzione decentralizzate é per le parti  una determinata interazione di essere attori auto-sovrani, nel senso che nessuna terza parte é richiesta per agire in loro conto al fine di permettere l'avvenimento dell'interazione.
 
+### Come funziona un exchange decentralizzato?
+Gli exchanges hanno 4 funzioni principali:
 
-### How Does a Decentralized Exchange Work?
-Exchanges have four core functions:
+  * Deposito di capitali
 
-  * Capital deposits
+  * Trasmissione di un ordine
 
-  * Order broadcast
+  * Accoppiamento di un ordine
 
-  * Order matching
+  * Scambio dei tokens
 
-  * The exchange of tokens
+Perció, al fine di essere un exchange decentralizzato, ogniuna di queste funzioni deve essere decentralizzata.
 
-Hence, in order to be a decentralized exchange, each of these core functions must be decentralized.
-
-The Blocknet decentralizes them in the following ways:
+Blocknet le decentralizza nel seguente modo:
 
 * Traders’ capital remains in their wallets, and is not entrusted to a third party at any stage.
 
