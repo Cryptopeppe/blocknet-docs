@@ -79,18 +79,18 @@ Il wallet di ogni moneta con la quale vuoi fare trading deve essere configurato 
  
 ---
 
-## Configure Coin Addresses
-In each wallet, create a new address and label it something informative, like “DX address” (xbridge expects a labelled receive address)
-
- * To create a new address, go to your wallet’s “receive” tab and click “new address”
-
- * To label an address, you may either right-click on it or click the “label” field.
+## Configurare gli Indirizzo delle Monete
+In ogni wallet, crea un nuovo indirizzo ed etichettalo in modo informativo, come "indirizzo DX" (xbridge si aspetta un indirizzo in ricezione etichettato)
+ 
+ * Per creare un nuovo indirizzo, vai all'icona del wallet "receive" e clicca "new address" 
+ 
+ * Per etichettare un indirizzo, puoi fare doppio clic sullo stesso o cliccare il campo "etichettato" 
  
  ![alt text](https://github.com/BlocknetDX/blocknet-docs/blob/master/pictures/labelledaddress.PNG "Logo Title Text 1") 
 
- * Send the funds you want to trade with to the labelled address
+ * Invia i fondi con i quali vuoi fare trading al tuo indirizzo etichettato
  
- * This needs to be done for all the wallets you want to trade with
+ * Ció va portato a compimento per tutti i wallet con i quali vuoi fare trading
  
 ---
 
