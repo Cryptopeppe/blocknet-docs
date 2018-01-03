@@ -103,17 +103,17 @@ Grazie agli exchange decentralizzati, i consumatori di un servizio possono pagar
 ### Qauli sono i benefici nell'eseguire un nodo? Quanti BLOCK ho bisogno per farne funzionare uno?
 Ci sono due differenti tipi di nodo: un "nodo di servizio" e un "nodo trader". Il nodo di servizio non gestisce e non controlla alcuna moneta dei traders. La loro funzione é quella di collezionare e distribuire le commissioni ai traders. Tipicamente un operatore di un nodo di servizio eseguirá differenti nodi wallets di qualunque moneta che vuole supportare, al fine di guadagnare piú commissioni da trading possibili. I nodi trader permettono di effettuare scambi sull'exchange decentralizzato. La quantitá di BLOCK correntemente richiesti per eseguire un nodo di servizio é 5,000 BLOCK. Per utilizzare l'exchange non hai bisogno di alcun BLOCK. 
  
-### Will There Be Fees For Buying/Trading On the Blocknet Exchange?
-Yes, there are fees, though they are significantly lower that centralised exchanges.
+### Ci saranno commissioni per comprare/scambiare sull'exchange di Blocknet?
+Si, ci sono commissioni, sebbene siano significativamente piú basse degli exchanges centralizzati.
 
-The fee structure is as follows:
-  * Transactions over the networks of each of your currency pairs will remain subject to their normal network fees for P2SH transactions
+La struttura delle commissioni viene ripartita di seguito:
+  * Le transazioni sulla rete per ogniuna della coppia di valute rimarrá assoggettata alla sua normale commissione di rete per le transazioni 
 
-  * A tiny trade fee is charged in BLOCK and the software takes care of securing some BLOCK to pay the fee.
+  * Una piccola commissione per lo scambio viene pagata in BLOCK e il software si occupa di trattenere una piccola quantitá di BLOCK per pagare la commissione.
 
 
-### Will A User Need BLOCK To Participate On An Exchange?
-No, to use the exchange you will NOT need any BLOCK. Only the service node operators will need BLOCK in order to collect and distribute trade fees. Additionally, the service nodes do not handle or control and trader’s coins. The sole purpose of the service node is to only collect and distribute trade fees.
+### Gli utenti hanno bisogno di BLOCK per partecipare all'exchange?
+No, per usare l'exchange NON vi é bisogno di alcun BLOCK. Solo l'operatore del nodo di servizio necessita BLOCK al fine di incassare e distribuire le commissioni provenienti dal trading. Addizionalmente, i nodi di servizio non gestiscono o controllano le monete dei traders. Il solo scopo del nodo di servizio é quello di collezionare e distribuire le commissioni provenienti dal trading.
 
 ---
-Ongoing questions/answers can be found on Reddit: [Reddit Blocknet Q/A](https://www.reddit.com/r/theblocknet/comments/676buj/ask_anything_about_blocknet_qa/)
+Domande/risposte in corso possono essere trovate su Reddit: [Reddit Blocknet Q/A](https://www.reddit.com/r/theblocknet/comments/676buj/ask_anything_about_blocknet_qa/)
