@@ -86,12 +86,12 @@ Comunque, nota che una volta che hai completato uno scambio e ricevuto le monete
 
 *Nota: Un futuro miglioramento agli exchange decentralizzati potrebbe includere un filtro sul libro degli ordini per permettere ai traders di scambiare monete con un numero inferiore di conferme convenzionalmente accettate come "sicure". Ció comporta un certo grado di rischio a vantaggio del supporto di stili di trading che richiedono di entrare e uscire rapidamente  da una posizione esistente, come lo scalping.*
 
-### How Private Is the Decentralized Exchanged?
-Because decentralized exchanges do not require traders to submit KYC information or divulge anything else about themselves to a third party, traders enjoy a naturally high degree of privacy.
+### Quanto é privato un exchange decentralizato?
+Perché decentralizzato l'exchanges non richiede l'invio di informazioni KYC o divulgare nient'altro a proposito di te stesso a una terza parte, i traders godono naturalmente di un elevato grado di privacy.
 
-However, for most wallets, aspects of transactions are linkable to IP addresses, so in order to obfuscate that, one might use TOR or I2P. The Blocknet’s DHT network overlay does not use IP addresses, however.
+Comunque, per molti wallets, alcuni aspetti delle transazioni sono collegabili all'indirizzo IP, quidni al fine offuscarlo, si potrebbe usare TOR o I2P. La rete overlay DHT di Blocknet non richiede l'uso di indirizzo IP, comunque.
 
-Combined with any privacy-centric coin, a decentralized exchange run over IP-obfuscating tech is a near-perfect mixing solution. For example, one may trade some coins for Zcash, sends them to a different address, and then trade back again.
+Combinato con ogni moneta centrata sulla privacy, un exchange decentralizzato viene eseguito su tecniche di offuscamento dell'indirizzo IP in una soluzione mix quasi perfetta. Per esempio, é possibile scambiare alcune monete per Zcash, inviarle a un indirizzo differente, e dopo scambiare nuovamente.
 
 ### What Are the Possible Applications Of the xBridge Protocol Other Than a Decentralized Exchange?
 The Blocknet is designed as infrastructure for the emerging token ecosystem. Any service or orchestrated sequence of microservices provided by dapps may be delivered over the Blocknet's infrastructure.
