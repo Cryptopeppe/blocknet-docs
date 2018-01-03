@@ -93,14 +93,13 @@ Comunque, per molti wallets, alcuni aspetti delle transazioni sono collegabili a
 
 Combinato con ogni moneta centrata sulla privacy, un exchange decentralizzato viene eseguito su tecniche di offuscamento dell'indirizzo IP in una soluzione mix quasi perfetta. Per esempio, é possibile scambiare alcune monete per Zcash, inviarle a un indirizzo differente, e dopo scambiare nuovamente.
 
-### What Are the Possible Applications Of the xBridge Protocol Other Than a Decentralized Exchange?
-The Blocknet is designed as infrastructure for the emerging token ecosystem. Any service or orchestrated sequence of microservices provided by dapps may be delivered over the Blocknet's infrastructure.
+### Qauli sono le possibili applicazioni del protocollo xBridge oltre all'exchange decentralizzato?
+Blocknet é progettata come infrastruttura per gli emergenti ecosistemi token. Ogni servizio o sequenza orchestrata di microservizi fornita dalle daaps potrebbe essere fornita sulla struttura della blockchain
 
-Using decentralized exchange, these services are intrinsically monetizable, removing the friction and high costs of traditional payment networks - friction which has prevented the monetisation of the bulk of the API ecosystem.
+Usando gli exchange decentralizzati, questi servizi sono intrinsecamente monetizzabili, rimuovendo le frizioni e gli alti costi delle tradizionali reti di pagamento - frizione che ha prevenuto la monetizzazione dell'ecosistema API.
 
-Due to the decentralized exchange, consumers of a service may pay in their native token even if the service consumes a different token.
- 
- 
+Grazie agli exchange decentralizzati, i consumatori di un servizio possono pagara con i loro token nativi anche se il servizio consuma un token differente.
+
 ### What Are the Benefits Of Running a Node? How Many Blocks Do I Need To Run One?
 There are two types of node: a "service node" and a “trader node”. Service nodes do not handle or control any trader's coins. Their function is to collect and distribute trade fees. Typically a service node operator will run multiple full node wallets of whichever coins (s)he wants to support, in order to garner as many trade fees as possible. Trader nodes enable one to trade on the decentralized exchange.The amount of BLOCK currently needed to run a service node is 5,000 BLOCK. To use the exchange you will not need any BLOCK.
  
