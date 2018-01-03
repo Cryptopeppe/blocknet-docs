@@ -1,11 +1,11 @@
 # BLOCKNET
 ![alt text](https://github.com/BlocknetDX/blocknet-docs/blob/master/pictures/block.PNG "Logo Title Text 1")
 
-The Internet Of Blockchains
+Internet delle Blockchains
 
-## Blocknet Decentralised Exchange Trader Setup Guide
+## Guida Alla Configurazione Dell'Exchange Decentralizzato Blocknet
 
-**These instructions are to trade on the Blocknet Decentralised Exchange** 
+**Queste istruzioni servono per fare trading sull'exchange decentralizzato di Blocknet** 
 
 * Blocknet’s DX uses the xbridgep2p™ blockchain router technology to enable users to exchange tokens and assets, and to utilise smart contracts between blockchains.
 
