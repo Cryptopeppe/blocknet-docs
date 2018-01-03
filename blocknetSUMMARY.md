@@ -61,8 +61,9 @@ Internet Delle Blockchains
 Blocknet é l'infrastruttura per la prossima "internet blockchain era", una nuova epoca della tecnologia caratterizzata in primis
 dal superamento del corresti ecosistema di API con un "ecosistema moneta" intrinsecamente monetizzabile.
 
-Dalla prospettiva delle tecnologia blockchain, se le blockchain devono raggiungere il loro vero potenziale,
-From the perspective of blockchain technology, if blockchains are to achieve their true potential, then broad, generic interoperability between blockchain services is required. Without inter-chain interoperability, blockchain-based services will (a) either deliver services only within the confines of the limited customer base that runs its nodes, or sacrifice the unique security properties of blockchains in delivering to centralized entities, and (b) face enduring problems with chain bloat and, relatedly, the market-related pressure to build further features onto a single chain. 
+Dalla prospettiva delle tecnologia blockchain, se le blockchain devono raggiungere il loro vero potenziale, allora un'ampia, genericha interoperabilitá tra servizi tecnologici blockchain é necessaria. Senza l'interoperabilitá fra chain, i servizi blockchain (a) fonriranno solo servizi entro i confini limitati della sua base di clienti che gestiscono i suoi nodi, o sacrificare la proprietá unica di sicurezza delle blockchains nella consegna a entitá centralizzate, (b) affrontare problemi duraturi di sovraccarico e, correlativamente, la pressione legata al mercato di costruire future funzionalitá su una singola chain.
+
+Dalla prospettiva del software come servizio (SaaS), l'ecosistema dei token contiene due progressi fondamentali: (a) 
 
 From the perspective of software-as-a-service (SaaS), the token ecosystem embodies two fundamental advancements: (a) the comparatively frictionless monetisation of services, and (b) the leveraging of the unique robustness, decentralization, and security properties of blockchain technology. 
 
