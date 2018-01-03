@@ -121,11 +121,11 @@ La tecnologia Xbridge di Blocknet é integrata nell'ultima versione del client. 
  
 ---
 
-## Startup Sequence
- * Start the currency pair(s) you are trading with
-    * Ensure every wallet is fully sync'd and unlocked
+## Sequenza di Avvio
+ * Avvia le coppie di valute con le quali stai facendo trading
+    * Assicurati che ogni wallet sia completamente sincronizzato e sbloccato
 
- * Start the Blocknet wallet after starting the other wallets.
+ * Avvia il wallet Blocknet dopo aver avviato gli altri wallets.
      
 ---
 
