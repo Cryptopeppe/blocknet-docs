@@ -102,22 +102,22 @@ La tecnologia Xbridge di Blocknet é integrata nell'ultima versione del client. 
  
  * Creare/Modificare file `xbridge.conf` e collocare la seguente configurazione nel wallet Blocknet nella directory data (per Windows) C:\Users\[yourusername]\AppData\Roaming\blocknetdx\
 
- * Note: to avoid crashes or failed trades, please edit your `xbridge.conf` to feature only and all the coins you wish to trade with
+ * Nota: per evitare crash o scambi falliti, per favore modifica solo le funzionalitá del tuo `xbridge.conf` su tutte le moente con le quali vuoi fare trading
 
- * Paste the RPC usernames and passwords you created for each currency pair into the “Username” and “Password” fields
+ * Incolla l'username e password RPC che hai creato per ogni coppia di criptovalute nel campo “Username” e “Password” 
  
- * Paste the address of the "labelled receive address" you created for each currency pair
+ * Incolla l'indirizzo del "labelled receive address" che hai creato per ogni coppia di criptovaluta
  
- * Ensure the rest of the configuration matches [xbridge.conf](https://github.com/BlocknetDX/blocknet-docs/blob/master/xbridgeCONF.md) for each coin
+ * Assicurati che il resto della configurazione combaci per ogni moneta [xbridge.conf](https://github.com/BlocknetDX/blocknet-docs/blob/master/xbridgeCONF.md) 
 
- * Save the File (if you just edited the existing file, just click save, if you made a new file then click file, save as, and in the file name type: `xbridge.conf`
-    * Ensure the file is not `xbridge.conf.txt`
+ * Salva il file (se hai modificato il file esistente, clicca salva, se hai creato un nuovo file clicca su file, salva come, e nel file scrivi: `xbridge.conf`
+    * Assicurati che il file non sia `xbridge.conf.txt`
 
- * Place this file into the Blocknet data directory folder: "C:\Users\[yourusername]\AppData\Roaming\blocknetdx\"
+ * Colloca questo file nella cartella della directory data di Blocknet: "C:\Users\[yourusername]\AppData\Roaming\blocknetdx\"
 
- * You will be coming back to this to edit it in the future to add future coins, and change `RPCusername` `RPCpassword` `Port` `Address` 
+ * Dovrai tornare indietro a questo passaggio se nel futuro deciderai di aggiungere altre monete, e cambiare `RPCusername` `RPCpassword` `Port` `Address` 
  
- * Do not change the other settings in the .conf file unless you are on testnet conducting tests.
+ * Non cambiare altre impostazioni nel file .conf a meno che non sia in testnet a condurre dei tests.
  
 ---
 
