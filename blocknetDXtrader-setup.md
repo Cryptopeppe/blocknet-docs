@@ -209,21 +209,21 @@ Una volta che hai confermato che i wallets stanno comunicando e la configurazion
 
 ---
 
-## Security Tips
-(With thanks to threepwood)
+## Dritte sulla Sicurezza
+(Con i ringraziamenti di threepwood)
 
-Since our technology essentially makes you your own exchange, here are some tips on how to keep your money safe.
+Siccome la nostra tecnologica ti rende il tuo proprio exchange, Qui ci sono alcune dritte per tenere il tuo denaro al sicuro.
 
-   * The Blocknet’s team will never ask for your private keys or coins. Do not get fooled by impersonators.
+   * Il team di Blocknet non ti chiederá mai le tue chiavi private o le tue monete. Non farti ingannare dagli imitatori.
 Exchanges
 
-   * Always move your coins from exchange to your private wallet.
-
-   * Use long and random password.
-
-   * Set up 2FA on logins and any withdrawals.
-
-   * Disable password recovery via SMS/phone service. Disable all password recovery options for maximum security.
+   * Sposta sempre le tue monete dall'exchange al tuo wallet privato.
+   
+   * Usa password casuali e lunghe.
+   
+   * Configura il 2FA sui login e i ritiri.
+   
+   * Disabilita il recupero della password tramite servizio SMS/telefono. Disabilita tutte le opzioni di recupero password per una massima sicurezza.
 
    * Recovery passwords are fine but keep them printed and offline.
 
