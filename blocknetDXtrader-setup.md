@@ -191,21 +191,21 @@ Una volta che hai confermato che i wallets stanno comunicando e la configurazion
 ---
 
 ## Diagnosi dei Problemi
-* To verify that each wallet is communicating with xbridge make sure the created receive addresses for each wallet is listed in the address book. If this part fails, close your wallets and review their configuration files.
+* Per verificare che ogni wallet stia comunicando con xbridge assicurati che gli indirizzi di ricezione per ogni wallet creati siano elencati nell'indirizzo del libro. Se questa parte fallisce, chiudi i tuoi wallets e rivedi i loro file di configurazione.
 
-* Ensure you have sent the funds you wish to trade with to the labelled address. Ensure these are confirmed.
+* Assicurati di aver inviato i fondi con i quali desideri fare trading all'indirizzo etichettato. Assicurati siano stati confermati.
 
-* If you made changes to any .conf file you need to close and restart that wallet, including Blocknet 
+* Se effettui cambi a qualsiasi file .conf devi chiudere e riavviare il wallet, incluso Blocknet
 
-* Verify the ports are actually open. You may use Command Prompt to do so by typing in `netstat -an` and reviewing the print. Check that the ports you specified in the .conf files (ex: 8332 for Bitcoin) are open over localhost (127.0.0.1).
+* Verifica che le porte siano effettivamente aperte. Puoi usare il Prompt dei Comandi per farlo, scrivendo `netstat -an` e controllando quanto viene stampato. Controlla che le porte che hai specificato nei files .conf (es: 8332 per Bitcoin) siano aperte sul localhost (127.0.0.1).
 
-* Ensure all .conf files are configured properly. These configurations are very case-sensitive. Any wrong data entered in them could be causing the issues.
+* Assicurati che tutti i files .conf siano configurati correttamente. Queste configurazioni sono "case sensitive". Ogni dato sbagliato inserito potrebbe causare problemi.
 
-* Check that no OS-based firewall is blocking communication. You may do this through your firewall’s interface.
+* Controlla che nessun firewall del Sistema Operativo stia bloccando la comunicazione. Puoi farlo attraverso l'interfaccia del tuo firewall.
 
-* Check the xbridge log for any errors in: C:\Users\yourusername\AppData\Roaming\blocknetdx\log
+* Controlla i log di xbridge per eventuali errori in: C:\Users\yourusername\AppData\Roaming\blocknetdx\log
 
-* Check on general wallet events in C:\Users\yourusername\AppData\Roaming\walletname\debug.log
+* Controlla gli eventi generali del wallet in C:\Users\yourusername\AppData\Roaming\walletname\debug.log
 
 ---
 
