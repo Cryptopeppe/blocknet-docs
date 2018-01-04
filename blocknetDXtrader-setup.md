@@ -225,42 +225,42 @@ Exchanges
    
    * Disabilita il recupero della password tramite servizio SMS/telefono. Disabilita tutte le opzioni di recupero password per una massima sicurezza.
 
-   * Recovery passwords are fine but keep them printed and offline.
-
-   * Make sure your stored emails do not contain any extra information such as passwords or social security numbers.
-
-   * Use different email addresses where possible. This limits the ability for hackers to run their automated "Forgot my password" links. 
+   * Le password di ripristino vanno bene ma tienile stampate e offline.
    
-   * Online Activity / Personal Information Disclosure. Do not promote your coin count etc online.
+   * Assicurati che le tue email salvate non contengano alcune informazione come password o SSN.
+   
+   * Usa differenti indirizzi email quando possibile. Ció limita l'abilitá degli hacker di avviare i loro link automatizzati " ho dimenticato la mia password".
+   
+   * Attivitá online / divulgazione di informazioni personali. Non promuovere il numero delle tue monete online.
+   
+   * Limita la tua persona pubblica online. Ció potrebbe attrarre attenzioni indesiderate e farti diventare un possibile bersaglio.
+   
+   * Disattiva ogni account online che non usi piú.
+   
+   * Assumi che gruppi hacker stiano costruendo il tuo profilo sociale. I tuoi interesse, il tempo che trascorri online, con chi interagisci.
 
-   * Limit your online public persona. This can attract unwanted attention which can make you a target.
+   * I gruppi di hacker usano script automatizzati, se queste risorse non funzionano cercano di fare social engineer suoi tuoi contatti.
 
-   * Disable any online accounts you no longer use.
+   * I gruppi di hacker sono esperti nel social engineering. Loro hanno fatto queste cose migliaia di volte.
 
-   * Assume hacking groups are building up social profiles on yourself. Your interests, time you are usually online, who you interact with.
+   * Non aprire link casuali e files provenienti da slack, etc.
 
-   * Hacking groups use automated scripts so if those resources are exhausted they will try to social engineer your contacts.
+   * Non credere a storie di pianti (ho perso tutte le mie monete) senza aver fatto una adeguata due diligence.
 
-   * Hacking groups are experts at social engineering. They have done this thousands of times.
+   * Fai backups multipli delle tue chiavi private regolarmente.
 
-   * Do not open random links and files provided in Slack, etc.
+   * Verifica i backups importanto le chiavi sul client.
 
-   * Do not fall for sob stories (Boohoo I lost all my coins) without proper due diligence.
+   * Conserva i tuoi backups in M-DISC o in formato cartaceo.
 
-   * Take multiple backups of your private keys regularly.
+   * Usa wallet dedicati / staking PC e fanne il tuo paradiso sicuro. NON USARLI PER ALTRE ATTIVITÁ ONLINE.
 
-   * Verify backup by importing keys to the client.
+   * Cripta i tuoi dischi rigidi.
 
-   * Store your backups in M-DISC or in paper format.
+   * Usa l'open source dove possibile.
 
-   * Use dedicated wallet / staking PC and make it your safe haven. DO NOT USE IT FOR ANY OTHER ONLINE ACTIVITIES.
+   * Mantieni i tuoi software aggiornati.
 
-   * Encrypt your hard drives.
+   * Non installare software da terze parti sconosciute.
 
-   * Use open source where possible.
-
-   * Keep your software updated.
-
-   * Do not install software from unknown 3rd party actors.
-
-   * Use network level segmentation and mitigate attack surface against your wallet PC.
+   * Usa la segmentazione a livello della rete e mitiga attacchi di superficie contro il wallet del tuo pc.
